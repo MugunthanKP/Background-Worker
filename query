@@ -1,0 +1,9 @@
+INSERT INTO toppers (
+	SELECT students.name,students.student_id,score 
+	FROM students,(SELECT student_id,(english+maths+science+social+gk) as score 
+			FROM marks
+			WHERE (english+maths+science+social+gk) in (
+				SELECT MAX(english+maths+science+social+gk) as score from marks)) 	AS temp
+	WHERE students.student_id=temp.student_id
+);
+
