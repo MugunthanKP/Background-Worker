@@ -9,5 +9,5 @@ postgresql-11.4
 base36extension
 custombgw
 get-pip.py
-samplequeryextension
+samplequeryextension/*
 .vscode
