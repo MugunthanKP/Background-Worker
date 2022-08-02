@@ -1,7 +1,7 @@
-hello_world.c
-hello_world.so
-hello_world.o
-Makefile
+./hello_world.c
+./hello_world.so
+./hello_world.o
+./Makefile
 postgresql-11.4.tar.gz
 sqrtextension
 pg11
