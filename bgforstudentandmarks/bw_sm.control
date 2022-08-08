@@ -1,0 +1,5 @@
+# bw_sm extension
+comment = 'insert data into students and marks using background'
+module_pathname = '$libdir/bw_sm'
+default_version = '0.0.1'
+relocatable = true

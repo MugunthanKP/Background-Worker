@@ -1,0 +1,5 @@
+# sample extension
+comment = 'insert datas into the table using background'
+module_pathname = '$libdir/sample'
+default_version = '0.0.1'
+relocatable = true

@@ -7,3 +7,12 @@ INSERT INTO toppers (
 	WHERE students.student_id=temp.student_id
 );
 
+INSERT INTO toppers(SELECT students.name,students.student_id,score,temp.time from students, 
+						(SELECT student_id,(english+maths+science+social+gk) as score,time FROM marks 
+						ORDER BY time DESC,(english+maths+science+social+gk) DESC LIMIT 3) AS Temp 
+					WHERE students.student_id = temp.student_id ORDER BY score DESC );
+
+
+TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days'))
+
+SELECT cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar);

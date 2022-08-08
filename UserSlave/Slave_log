@@ -1,0 +1,26 @@
+2022-08-04 19:42:56.135 IST [526322] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2022-08-04 19:42:56.135 IST [526322] LOG:  listening on IPv6 address "::", port 5433
+2022-08-04 19:42:56.139 IST [526322] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2022-08-04 19:42:56.149 IST [526323] LOG:  database system was interrupted while in recovery at log time 2022-08-04 19:17:27 IST
+2022-08-04 19:42:56.149 IST [526323] HINT:  If this has occurred more than once some data might be corrupted and you might need to choose an earlier recovery target.
+2022-08-04 19:42:56.161 IST [526323] LOG:  entering standby mode
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-04 19:42:56.164 IST [526323] LOG:  redo starts at 0/1F08E108
+2022-08-04 19:42:56.175 IST [526323] LOG:  consistent recovery state reached at 0/1F1F62F8
+2022-08-04 19:42:56.176 IST [526322] LOG:  database system is ready to accept read only connections
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-04 19:42:56.178 IST [526323] LOG:  invalid record length at 0/20000098: wanted 24, got 0
+2022-08-04 19:42:56.180 IST [526331] LOG:  started streaming WAL from primary at 0/20000000 on timeline 1
+2022-08-04 19:45:32.028 IST [526331] FATAL:  terminating walreceiver due to timeout
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-04 19:45:32.031 IST [526323] LOG:  invalid record length at 0/20000140: wanted 24, got 0
+2022-08-04 19:45:32.038 IST [526442] LOG:  started streaming WAL from primary at 0/20000000 on timeline 1
+2022-08-04 19:48:48.032 IST [526442] FATAL:  terminating walreceiver due to timeout
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-04 19:48:48.033 IST [526323] LOG:  invalid record length at 0/20060260: wanted 24, got 0
+2022-08-04 19:48:48.035 IST [527243] LOG:  started streaming WAL from primary at 0/20000000 on timeline 1
+2022-08-04 19:49:00.391 IST [526322] LOG:  received fast shutdown request
+2022-08-04 19:49:00.394 IST [526322] LOG:  aborting any active transactions
+2022-08-04 19:49:00.394 IST [527243] FATAL:  terminating walreceiver process due to administrator command
+2022-08-04 19:49:00.396 IST [526326] LOG:  shutting down
+2022-08-04 19:49:00.405 IST [526322] LOG:  database system is shut down

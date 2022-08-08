@@ -4,6 +4,8 @@
 #include "storage/ipc.h"
 #include "storage/latch.h"
 #include "storage/proc.h"
+#include "storage/shm_toc.h"
+#include "storage/shm_mq.h"
 #include "fmgr.h"
 #include "/usr/include/errno.h"
 #include "/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h"
@@ -11,6 +13,8 @@
 #include "executor/spi.h"
 #include "utils/snapmgr.h"
 #include "tcop/utility.h"
+#include "miscadmin.h"
+
 
 PG_MODULE_MAGIC;
 
@@ -61,14 +65,10 @@ void execute_insert(){
     PushActiveSnapshot(GetTransactionSnapshot());
     pgstat_report_activity(STATE_RUNNING, "executing configuration logger function");
     initStringInfo(&buf);
-    appendStringInfo(&buf,"INSERT INTO toppers ("
-    "SELECT students.name,students.student_id,score "
-    "FROM students,(SELECT student_id,(english+maths+science+social+gk) as score "
-    "FROM marks "
-    "WHERE (english+maths+science+social+gk) in ("
-    "SELECT MAX(english+maths+science+social+gk) as score from marks)) 	AS temp "
-    "WHERE students.student_id=temp.student_id"
-    ");");
+    appendStringInfo(&buf,"INSERT INTO toppers(SELECT students.name,students.student_id,score,temp.time from students," 
+						"(SELECT student_id,(english+maths+science+social+gk) as score,time FROM marks " 
+						"ORDER BY time DESC,(english+maths+science+social+gk) DESC LIMIT 3) AS Temp " 
+					"WHERE students.student_id = temp.student_id) ORDER BY score DESC;");
     debug_query_string = buf.data;
     ret = SPI_execute(buf.data, false, 1);
     SPI_finish();
@@ -77,8 +77,12 @@ void execute_insert(){
     pgstat_report_activity(STATE_IDLE, 0);
 }
 
-void _PG_init(void){
+
+PG_FUNCTION_INFO_V1(launch_insert);
+Datum launch_insert(PG_FUNCTION_ARGS){
+    pid_t		pid;
     BackgroundWorker worker;
+    BackgroundWorkerHandle *worker_handle;
     MemSet(&worker,0,sizeof(BackgroundWorker));
     worker.bgw_flags = BGWORKER_SHMEM_ACCESS | BGWORKER_BACKEND_DATABASE_CONNECTION;
     worker.bgw_start_time = BgWorkerStart_RecoveryFinished;
@@ -87,6 +91,21 @@ void _PG_init(void){
 	snprintf(worker.bgw_name, BGW_MAXLEN, "samplebg ");
 	worker.bgw_restart_time = BGW_NEVER_RESTART;
     worker.bgw_main_arg = (Datum) 0;
-    worker.bgw_notify_pid = 0;
-    RegisterBackgroundWorker(&worker);
+    worker.bgw_notify_pid = MyProcPid;
+    RegisterDynamicBackgroundWorker(&worker,&worker_handle);
+    switch (WaitForBackgroundWorkerStartup(worker_handle, &pid))
+	{
+		case BGWH_STARTED:
+			break;
+		case BGWH_STOPPED:
+			break;
+		case BGWH_POSTMASTER_DIED:
+			pfree(worker_handle);
+            elog(ERROR, "cannot start background processes without postmaster");
+			break;
+		default:
+			elog(ERROR, "unexpected bgworker handle status");
+			break;
+	}
+    PG_RETURN_INT32(pid);
 }

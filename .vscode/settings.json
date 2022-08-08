@@ -7,6 +7,15 @@
         "latch.h": "c",
         "proc.h": "c",
         "fmgr.h": "c",
-        "stringinfo.h": "c"
+        "stringinfo.h": "c",
+        "shm_toc.h": "c",
+        "snapmgr.h": "c",
+        "miscadmin.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "time.h": "c",
+        "utility.h": "c",
+        "xact.h": "c",
+        "spi.h": "c"
     }
 }

@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Aug  2 14:29:26 2022
+# Make data base, printed on Thu Aug  4 19:17:59 2022
 
 # Variables
 
@@ -21,6 +21,7 @@ PROVE =
 # environment
 DESKTOP_SESSION = ubuntu
 # default
+ 
 .SHELLFLAGS := -c
 # makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 225)
 TCL_SHLIB_LD_LIBS = 
@@ -263,7 +264,8 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/618242907/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 39974
+ 
+GIO_LAUNCHED_DESKTOP_FILE_PID = 85517
 # makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 650)
 pg_isolation_regress_installcheck = $(top_builddir)/src/test/isolation/pg_isolation_regress --inputdir=$(srcdir) --outputdir=output_iso --bindir='$(bindir)' $(pg_regress_locale_flags) $(EXTRA_REGRESS_OPTS)
 # automatic
@@ -282,7 +284,6 @@ CONTRIB_TESTDB = contrib_regression
 PWD = /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04
 # makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 546)
 libpq_builddir = $(libdir)
- 
 # makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 156)
 bindir := /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/bin
 # makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 351)
@@ -450,6 +451,7 @@ ELF_SYSTEM = true
 # makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 288)
 LDAP_LIBS_BE = 
 # default
+ 
 .VARIABLES := GNUMAKEFLAGS <D PROVE ?F DESKTOP_SESSION .SHELLFLAGS TCL_SHLIB_LD_LIBS XDG_SESSION_CLASS FLEXFLAGS XDG_SESSION_TYPE CLANG enable_thread_safety perl_archlibexp ?D IM_CONFIG_PHASE INSTALL BITCODE_CXXFLAGS @D XAUTHORITY GDMSESSION XMODIFIERS TCLSH LIBOBJS CURDIR SHELL HEADER_alldirs LDFLAGS_SL PTHREAD_CFLAGS VSCODE_NLS_CONFIG X LDREL _ LLVM_CONFIG CFLAGS LDFLAGS_INTERNAL JOURNAL_STREAM XDG_CONFIG_DIRS WIN32_STACK_RLIMIT host_cpu perl_embed_ldflags PTHREAD_LIBS enable_strong_random MAKEFILE_LIST autodepend @F with_gssapi DLLWRAP GCC GIO_LAUNCHED_DESKTOP_FILE GZIP USERNAME FOP with_libxml enable_rpath CXXFLAGS pkgincludedir XDG_DATA_DIRS WINDRES DBUS_SESSION_BUS_ADDRESS with_system_tzdata VERSION UUID_LIBS prove_installcheck MSGMERGE _create_recursive_target AWK CPPFLAGS docmoduledir MANAGERPID DLSUFFIX LESSOPEN DTRACE CPP VSCODE_CWD datamoduledir includedir_server with_ldap build_os with_python with_perl WANTED_LANGUAGES with_gnu_ld MAKE_HOST PATH BISONFLAGS libpq_pgport export_dynamic standard_targets LD top_srcdir DLLTOOL GPG_AGENT_INFO DEF_PGPORT SESSION_MANAGER with_selinux localedir XDG_RUNTIME_DIR includedir HAVE_IPV6 INSTALL_DATA_MODE python_additional_libs XMLLINT CFLAGS_SSE42 pg_regress_installcheck sysconfdir XDG_MENU_PREFIX AR ELECTRON_RUN_AS_NODE INVOCATION_ID UUID_EXTRA_OBJS .FEATURES python_libdir MODULES install_bin LS_COLORS TCL_SHARED_BUILD XDG_SESSION_DESKTOP SSH_AUTH_SOCK GIO_LAUNCHED_DESKTOP_FILE_PID pg_isolation_regress_installcheck %F TEMP_CONF DISPLAY enable_coverage srcdir CONTRIB_TESTDB PWD libpq_builddir bindir BZIP2 .LOADED SSH_AGENT_PID mandir ORIGINAL_XDG_CURRENT_DESKTOP INSTALL_STLIB libdir GTK_MODULES PYTHON INSTALL_SCRIPT_MODE VSCODE_AMD_ENTRYPOINT HOME install_sh recurse enable_tap_tests LESSCLOSE add_to_path VSCODE_CODE_CACHE_PATH TAR LOGNAME ICU_CFLAGS APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL bitcodedir RANLIB PGXS TCL_INCLUDE_SPEC VSCODE_HANDLES_UNCAUGHT_ERRORS GNOME_DESKTOP_SESSION_ID ^D TCL_LIBS LLVM_CPPFLAGS ICU_LIBS with_systemd MAKELEVEL pgxsdir MAKE python_libspec MAKECMDGOALS QT_IM_MODULE missing LDFLAGS_EX STRIP_SHARED_LIB SHLVL GCOV PG_SYSROOT with_uuid MSGFMT PL_TESTDB CC CFLAGS_ARMV8_CRC32C GNOME_SHELL_SESSION_MODE COMPILE.cxx.bc MAKE_VERSION LCOV USER vpathsearch VERSION_NUM with_openssl .DEFAULT_GOAL standard_always_targets XDG_CURRENT_DESKTOP python_version MKDIR_P uninstall_llvm_module LLVM_LIBS LDOUT ZIC with_tcl with_krb_srvnam host_os %D with_zlib LLVM_CXXFLAGS AROPT with_icu MAKE_COMMAND INSTALL_SCRIPT ELF_SYSTEM LDAP_LIBS_BE .VARIABLES incmoduledir *F LANGUAGE prove_check VSCODE_IPC_HOOK MSGFMT_FLAGS FLEX PORTNAME MAKEFLAGS MFLAGS *D krb_srvtab PG_CRC32C_OBJS have_win32_dbghelp DBTOEPUB includedir_internal BISON +D pg_regress_clean_files GDK_BACKEND enable_dtrace TAS +F MAJORVERSION enable_debug LDAP_LIBS_FE LLVM_CFLAGS STRIP QT_ACCESSIBILITY PROVE_FLAGS CFLAGS_VECTOR LDFLAGS with_libxslt ld_library_path_var .SHELLSTATUS MAKEFILES PG_CONFIG top_builddir perl_includespec <F INSTALL_SHLIB_OPTS LN_S NO_TEMP_INSTALL CFLAGS_SL STRIP_STATIC_LIB CXX pg_regress_locale_flags pkglibdir DTRACEFLAGS PERL with_temp_install pg_regress_check COMPILE.c.bc LC_ALL recurse_always INSTALL_PROGRAM python_includespec LLVM_BINPATH TCL_LIB_SPEC libpq_srcdir PG_PROVE_FLAGS GJS_DEBUG_TOPICS LIBS perl_embed_ccflags ^F python_majorversion pg_isolation_regress_check SUFFIXES INSTALL_SHLIB CHROME_DESKTOP SUN_STUDIO_CC GENHTML WINDOWPATH enable_nls libpq .INCLUDE_DIRS INSTALL_DATA GJS_DEBUG_OUTPUT docdir perl_privlibexp XGETTEXT .RECIPEPREFIX NO_GENERATED_HEADERS rpath XSLTPROC install_llvm_module LANG configure_args host_tuple datadir VSCODE_PID rpathdir BITCODE_CFLAGS with_llvm
 # makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 115)
 incmoduledir := contrib
@@ -578,7 +580,6 @@ TCL_LIB_SPEC =
 # makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 545)
 libpq_srcdir = $(includedir)
 # makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 407)
- 
 PG_PROVE_FLAGS = -I $(top_srcdir)/src/test/perl/ -I $(srcdir)
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
@@ -600,6 +601,7 @@ INSTALL_SHLIB = $(INSTALL_SHLIB_ENV) $(INSTALL) $(INSTALL_SHLIB_OPTS) $(INSTALL_
 CHROME_DESKTOP = code-url-handler.desktop
 # makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 259)
 SUN_STUDIO_CC = no
+ 
 # makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 482)
 GENHTML = 
 # environment
@@ -646,7 +648,7 @@ host_tuple = x86_64-pc-linux-gnu
 # makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 157)
 datadir := /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/share/postgresql
 # environment
-VSCODE_PID = 39974
+VSCODE_PID = 85517
 # makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 527)
 rpathdir = $(libdir)
 # makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 233)
@@ -662,9 +664,9 @@ with_llvm = no
 
 # Directories
 
-# . (device 58, inode 1610808): 23 files, no impossibilities.
+# . (device 58, inode 1610808): 33 files, no impossibilities.
 
-# 23 files, no impossibilities in 1 directories.
+# 33 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -745,7 +747,7 @@ all: submake-generated-headers hello_world.so
 # Not a target:
 /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-01 10:13:25.181190382
+#  Last modified 2022-08-04 11:54:30.407181737
 #  File has been updated.
 #  Successfully updated.
 
@@ -763,6 +765,7 @@ distclean: clean
 #  File has not been updated.
 
 temp-install: | submake-generated-headers
+ 
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File is an intermediate prerequisite.
@@ -809,7 +812,7 @@ update-po:
 # Not a target:
 hello_world.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-02 12:43:52.415414331
+#  Last modified 2022-08-02 16:54:20.832039671
 #  File has been updated.
 #  Successfully updated.
 
@@ -852,7 +855,7 @@ submake-libpgport: | submake-generated-headers
 # Not a target:
 /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-01 10:13:25.229190466
+#  Last modified 2022-08-04 11:54:30.427181524
 #  File has been updated.
 #  Successfully updated.
 
@@ -873,7 +876,7 @@ installcheck: submake-generated-headers
 # Not a target:
 /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-01 10:13:25.22519046
+#  Last modified 2022-08-04 11:54:30.427181524
 #  File has been updated.
 #  Successfully updated.
 
@@ -881,11 +884,11 @@ submake-libpgfeutils: | submake-generated-headers
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File is an intermediate prerequisite.
+ 
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 587):
 	$(MAKE) -C $(top_builddir)/src/port all
- 
 	$(MAKE) -C $(top_builddir)/src/common all
 	$(MAKE) -C $(top_builddir)/src/fe_utils all
 
@@ -923,7 +926,7 @@ install-strip:
 hello_world.so: hello_world.o
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'hello_world'
-#  Last modified 2022-08-02 12:43:52.423410538
+#  Last modified 2022-08-02 16:54:20.844038643
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port', line 15):
@@ -969,6 +972,7 @@ distprep:
 #  File is an intermediate prerequisite.
 #  File does not exist.
 #  File has not been updated.
+ 
 
 submake-generated-headers:
 #  Phony target (prerequisite of .PHONY).
@@ -1004,12 +1008,12 @@ install: all installdirs submake-generated-headers
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 73 / storage = 1227 B / avg = 16 B
-# current buf: size = 8162 B / used = 1227 B / count = 73 / avg = 16 B
+# strcache buffers: 1 (0) / strings = 83 / storage = 1387 B / avg = 16 B
+# current buf: size = 8162 B / used = 1387 B / count = 83 / avg = 16 B
 
-# strcache performance: lookups = 154 / hit rate = 52%
+# strcache performance: lookups = 164 / hit rate = 49%
 # hash-table stats:
-# Load=73/8192=1%, Rehash=0, Collisions=1/154=1%
-# Finished Make data base on Tue Aug  2 14:29:26 2022
+# Load=83/8192=1%, Rehash=0, Collisions=1/164=1%
+# Finished Make data base on Thu Aug  4 19:17:59 2022
 
  

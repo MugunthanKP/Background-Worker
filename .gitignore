@@ -1,6 +1,6 @@
-./hello_world.c
-./hello_world.so
-./hello_world.o
+hello_world.c
+hello_world.so
+hello_world.o
 ./Makefile
 postgresql-11.4.tar.gz
 sqrtextension
@@ -9,5 +9,5 @@ postgresql-11.4
 base36extension
 custombgw
 get-pip.py
-samplequeryextension/*
+samplequeryextension
 .vscode

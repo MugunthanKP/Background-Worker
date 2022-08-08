@@ -1,0 +1,50 @@
+postgres: could not access directory "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/../../pgdata": No such file or directory
+Run initdb or pg_basebackup to initialize a PostgreSQL data directory.
+postgres: could not access directory "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/../../pgdata": No such file or directory
+Run initdb or pg_basebackup to initialize a PostgreSQL data directory.
+2022-08-04 19:24:18.393 IST [524633] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-04 19:24:18.396 IST [524633] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-04 19:24:18.409 IST [524635] LOG:  database system was shut down at 2022-08-04 16:02:07 IST
+2022-08-04 19:24:18.412 IST [524633] LOG:  database system is ready to accept connections
+2022-08-04 19:24:45.478 IST [524703] FATAL:  role "replication" does not exist
+2022-08-04 19:24:45.481 IST [524707] FATAL:  role "replication" does not exist
+2022-08-04 19:24:50.495 IST [524741] FATAL:  role "replication" does not exist
+2022-08-04 19:24:55.499 IST [524752] FATAL:  role "replication" does not exist
+2022-08-04 19:25:00.503 IST [524762] FATAL:  role "replication" does not exist
+2022-08-04 19:25:05.510 IST [524777] FATAL:  role "replication" does not exist
+2022-08-04 19:25:10.516 IST [524807] FATAL:  role "replication" does not exist
+2022-08-04 19:25:15.517 IST [524818] FATAL:  role "replication" does not exist
+2022-08-04 19:25:20.516 IST [524838] FATAL:  role "replication" does not exist
+2022-08-04 19:25:23.123 IST [524779] ERROR:  canceling statement due to user request
+2022-08-04 19:25:23.123 IST [524779] STATEMENT:  select launch_insert_sm();
+2022-08-04 19:25:25.522 IST [524876] FATAL:  role "replication" does not exist
+2022-08-04 19:25:30.533 IST [524908] FATAL:  role "replication" does not exist
+2022-08-04 19:25:35.535 IST [524937] FATAL:  role "replication" does not exist
+2022-08-04 19:25:40.545 IST [524966] FATAL:  role "replication" does not exist
+2022-08-04 19:25:45.550 IST [524978] FATAL:  role "replication" does not exist
+2022-08-04 19:25:50.551 IST [524987] FATAL:  role "replication" does not exist
+2022-08-04 19:25:55.557 IST [525000] FATAL:  role "replication" does not exist
+2022-08-05 11:17:37.639 IST [537418] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-05 11:17:37.639 IST [537418] LOG:  listening on IPv6 address "::", port 5432
+2022-08-05 11:17:37.642 IST [537418] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-05 11:17:37.656 IST [537421] LOG:  database system was shut down at 2022-08-05 11:14:41 IST
+2022-08-05 11:17:37.659 IST [537418] LOG:  database system is ready to accept connections
+2022-08-05 11:21:26.127 IST [537418] LOG:  received fast shutdown request
+2022-08-05 11:21:26.130 IST [537418] LOG:  aborting any active transactions
+2022-08-05 11:21:26.130 IST [537572] FATAL:  terminating connection due to administrator command
+2022-08-05 11:21:26.131 IST [537418] LOG:  background worker "logical replication launcher" (PID 537429) exited with exit code 1
+2022-08-05 11:21:26.138 IST [537422] LOG:  shutting down
+2022-08-05 11:21:26.221 IST [537418] LOG:  database system is shut down
+2022-08-05 12:34:44.947 IST [543702] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-05 12:34:44.947 IST [543702] LOG:  listening on IPv6 address "::", port 5432
+2022-08-05 12:34:44.952 IST [543702] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-05 12:34:44.962 IST [543704] LOG:  database system was shut down at 2022-08-05 11:21:26 IST
+2022-08-05 12:34:44.964 IST [543702] LOG:  database system is ready to accept connections
+2022-08-05 12:35:09.677 IST [543813] ERROR:  syntax error at or near "AS" at character 491
+2022-08-05 12:35:09.677 IST [543813] STATEMENT:  create  extension bw_sm ;
+2022-08-05 12:36:53.256 IST [543702] LOG:  received fast shutdown request
+2022-08-05 12:36:53.261 IST [543702] LOG:  aborting any active transactions
+2022-08-05 12:36:53.261 IST [543813] FATAL:  terminating connection due to administrator command
+2022-08-05 12:36:53.261 IST [543702] LOG:  background worker "logical replication launcher" (PID 543711) exited with exit code 1
+2022-08-05 12:36:53.262 IST [543705] LOG:  shutting down
+2022-08-05 12:36:53.332 IST [543702] LOG:  database system is shut down
