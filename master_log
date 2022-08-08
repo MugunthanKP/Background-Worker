@@ -1,50 +1,82 @@
-postgres: could not access directory "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/../../pgdata": No such file or directory
-Run initdb or pg_basebackup to initialize a PostgreSQL data directory.
-postgres: could not access directory "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/../../pgdata": No such file or directory
-Run initdb or pg_basebackup to initialize a PostgreSQL data directory.
-2022-08-04 19:24:18.393 IST [524633] LOG:  listening on IPv4 address "127.0.0.1", port 5432
-2022-08-04 19:24:18.396 IST [524633] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
-2022-08-04 19:24:18.409 IST [524635] LOG:  database system was shut down at 2022-08-04 16:02:07 IST
-2022-08-04 19:24:18.412 IST [524633] LOG:  database system is ready to accept connections
-2022-08-04 19:24:45.478 IST [524703] FATAL:  role "replication" does not exist
-2022-08-04 19:24:45.481 IST [524707] FATAL:  role "replication" does not exist
-2022-08-04 19:24:50.495 IST [524741] FATAL:  role "replication" does not exist
-2022-08-04 19:24:55.499 IST [524752] FATAL:  role "replication" does not exist
-2022-08-04 19:25:00.503 IST [524762] FATAL:  role "replication" does not exist
-2022-08-04 19:25:05.510 IST [524777] FATAL:  role "replication" does not exist
-2022-08-04 19:25:10.516 IST [524807] FATAL:  role "replication" does not exist
-2022-08-04 19:25:15.517 IST [524818] FATAL:  role "replication" does not exist
-2022-08-04 19:25:20.516 IST [524838] FATAL:  role "replication" does not exist
-2022-08-04 19:25:23.123 IST [524779] ERROR:  canceling statement due to user request
-2022-08-04 19:25:23.123 IST [524779] STATEMENT:  select launch_insert_sm();
-2022-08-04 19:25:25.522 IST [524876] FATAL:  role "replication" does not exist
-2022-08-04 19:25:30.533 IST [524908] FATAL:  role "replication" does not exist
-2022-08-04 19:25:35.535 IST [524937] FATAL:  role "replication" does not exist
-2022-08-04 19:25:40.545 IST [524966] FATAL:  role "replication" does not exist
-2022-08-04 19:25:45.550 IST [524978] FATAL:  role "replication" does not exist
-2022-08-04 19:25:50.551 IST [524987] FATAL:  role "replication" does not exist
-2022-08-04 19:25:55.557 IST [525000] FATAL:  role "replication" does not exist
-2022-08-05 11:17:37.639 IST [537418] LOG:  listening on IPv4 address "0.0.0.0", port 5432
-2022-08-05 11:17:37.639 IST [537418] LOG:  listening on IPv6 address "::", port 5432
-2022-08-05 11:17:37.642 IST [537418] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
-2022-08-05 11:17:37.656 IST [537421] LOG:  database system was shut down at 2022-08-05 11:14:41 IST
-2022-08-05 11:17:37.659 IST [537418] LOG:  database system is ready to accept connections
-2022-08-05 11:21:26.127 IST [537418] LOG:  received fast shutdown request
-2022-08-05 11:21:26.130 IST [537418] LOG:  aborting any active transactions
-2022-08-05 11:21:26.130 IST [537572] FATAL:  terminating connection due to administrator command
-2022-08-05 11:21:26.131 IST [537418] LOG:  background worker "logical replication launcher" (PID 537429) exited with exit code 1
-2022-08-05 11:21:26.138 IST [537422] LOG:  shutting down
-2022-08-05 11:21:26.221 IST [537418] LOG:  database system is shut down
-2022-08-05 12:34:44.947 IST [543702] LOG:  listening on IPv4 address "0.0.0.0", port 5432
-2022-08-05 12:34:44.947 IST [543702] LOG:  listening on IPv6 address "::", port 5432
-2022-08-05 12:34:44.952 IST [543702] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
-2022-08-05 12:34:44.962 IST [543704] LOG:  database system was shut down at 2022-08-05 11:21:26 IST
-2022-08-05 12:34:44.964 IST [543702] LOG:  database system is ready to accept connections
-2022-08-05 12:35:09.677 IST [543813] ERROR:  syntax error at or near "AS" at character 491
-2022-08-05 12:35:09.677 IST [543813] STATEMENT:  create  extension bw_sm ;
-2022-08-05 12:36:53.256 IST [543702] LOG:  received fast shutdown request
-2022-08-05 12:36:53.261 IST [543702] LOG:  aborting any active transactions
-2022-08-05 12:36:53.261 IST [543813] FATAL:  terminating connection due to administrator command
-2022-08-05 12:36:53.261 IST [543702] LOG:  background worker "logical replication launcher" (PID 543711) exited with exit code 1
-2022-08-05 12:36:53.262 IST [543705] LOG:  shutting down
-2022-08-05 12:36:53.332 IST [543702] LOG:  database system is shut down
+2022-08-08 19:14:09.975 IST [22503] FATAL:  lock file "postmaster.pid" already exists
+2022-08-08 19:14:09.975 IST [22503] HINT:  Is another postmaster (PID 22073) running in data directory "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/master"?
+2022-08-08 19:14:19.624 IST [22508] FATAL:  lock file "postmaster.pid" already exists
+2022-08-08 19:14:19.624 IST [22508] HINT:  Is another postmaster (PID 22138) running in data directory "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/slave"?
+2022-08-08 19:15:55.178 IST [23182] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2022-08-08 19:15:55.178 IST [23182] LOG:  listening on IPv6 address "::", port 5433
+2022-08-08 19:15:55.181 IST [23182] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2022-08-08 19:15:55.195 IST [23184] LOG:  database system was shut down in recovery at 2022-08-08 19:15:14 IST
+2022-08-08 19:15:55.196 IST [23184] LOG:  entering standby mode
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 19:15:55.201 IST [23184] LOG:  redo starts at 0/3000028
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 19:15:55.204 IST [23184] LOG:  consistent recovery state reached at 0/4000060
+2022-08-08 19:15:55.204 IST [23184] LOG:  invalid record length at 0/4000060: wanted 24, got 0
+2022-08-08 19:15:55.204 IST [23182] LOG:  database system is ready to accept read only connections
+2022-08-08 19:15:55.210 IST [23192] FATAL:  could not connect to the primary server: could not connect to server: Connection refused
+		Is the server running on host "localhost" (127.0.0.1) and accepting
+		TCP/IP connections on port 5432?
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 19:15:55.216 IST [23195] FATAL:  could not connect to the primary server: could not connect to server: Connection refused
+		Is the server running on host "localhost" (127.0.0.1) and accepting
+		TCP/IP connections on port 5432?
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 19:16:00.223 IST [23205] FATAL:  could not connect to the primary server: could not connect to server: Connection refused
+		Is the server running on host "localhost" (127.0.0.1) and accepting
+		TCP/IP connections on port 5432?
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 19:16:05.228 IST [23208] FATAL:  could not connect to the primary server: could not connect to server: Connection refused
+		Is the server running on host "localhost" (127.0.0.1) and accepting
+		TCP/IP connections on port 5432?
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 19:16:10.233 IST [23215] FATAL:  could not connect to the primary server: could not connect to server: Connection refused
+		Is the server running on host "localhost" (127.0.0.1) and accepting
+		TCP/IP connections on port 5432?
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 19:16:15.240 IST [23218] FATAL:  could not connect to the primary server: could not connect to server: Connection refused
+		Is the server running on host "localhost" (127.0.0.1) and accepting
+		TCP/IP connections on port 5432?
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 19:16:20.245 IST [23221] FATAL:  could not connect to the primary server: could not connect to server: Connection refused
+		Is the server running on host "localhost" (127.0.0.1) and accepting
+		TCP/IP connections on port 5432?
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 19:16:25.251 IST [23228] FATAL:  could not connect to the primary server: could not connect to server: Connection refused
+		Is the server running on host "localhost" (127.0.0.1) and accepting
+		TCP/IP connections on port 5432?
+2022-08-08 19:16:28.086 IST [23182] LOG:  received fast shutdown request
+2022-08-08 19:16:28.089 IST [23182] LOG:  aborting any active transactions
+2022-08-08 19:16:28.090 IST [23188] LOG:  shutting down
+2022-08-08 19:16:28.096 IST [23182] LOG:  database system is shut down
+2022-08-08 19:16:33.191 IST [23234] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 19:16:33.191 IST [23234] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 19:16:33.194 IST [23234] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 19:16:33.212 IST [23235] LOG:  database system was shut down at 2022-08-08 19:15:24 IST
+2022-08-08 19:16:33.215 IST [23234] LOG:  database system is ready to accept connections
+2022-08-08 19:19:30.356 IST [23234] LOG:  received fast shutdown request
+2022-08-08 19:19:30.359 IST [23234] LOG:  aborting any active transactions
+2022-08-08 19:19:30.359 IST [23234] LOG:  background worker "logical replication launcher" (PID 23242) exited with exit code 1
+2022-08-08 19:19:30.360 IST [23236] LOG:  shutting down
+2022-08-08 19:19:30.491 IST [23234] LOG:  database system is shut down
+2022-08-08 22:06:23.311 IST [24282] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 22:06:23.311 IST [24282] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 22:06:23.315 IST [24282] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 22:06:23.329 IST [24283] LOG:  database system was shut down at 2022-08-08 19:19:30 IST
+2022-08-08 22:06:23.332 IST [24282] LOG:  database system is ready to accept connections
+2022-08-08 22:10:23.860 IST [24282] LOG:  received fast shutdown request
+2022-08-08 22:10:23.863 IST [24282] LOG:  aborting any active transactions
+2022-08-08 22:10:23.863 IST [24888] FATAL:  terminating connection due to administrator command
+2022-08-08 22:10:23.864 IST [24282] LOG:  background worker "logical replication launcher" (PID 24290) exited with exit code 1
+2022-08-08 22:10:23.865 IST [24284] LOG:  shutting down
+2022-08-08 22:10:23.939 IST [24282] LOG:  database system is shut down
+2022-08-08 22:10:39.063 IST [26586] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 22:10:39.063 IST [26586] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 22:10:39.068 IST [26586] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 22:10:39.084 IST [26587] LOG:  database system was shut down at 2022-08-08 22:10:23 IST
+2022-08-08 22:10:39.087 IST [26586] LOG:  database system is ready to accept connections
+2022-08-08 22:14:16.813 IST [26586] LOG:  received fast shutdown request
+2022-08-08 22:14:16.817 IST [26586] LOG:  aborting any active transactions
+2022-08-08 22:14:16.817 IST [26620] FATAL:  terminating connection due to administrator command
+2022-08-08 22:14:16.818 IST [26586] LOG:  background worker "logical replication launcher" (PID 26596) exited with exit code 1
+2022-08-08 22:14:16.825 IST [26588] LOG:  shutting down
+2022-08-08 22:14:16.960 IST [26586] LOG:  database system is shut down

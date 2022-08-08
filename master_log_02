@@ -1,0 +1,476 @@
+2022-08-08 17:26:27.301 IST [7153] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 17:26:27.301 IST [7153] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 17:26:27.301 IST [7153] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 17:26:27.305 IST [7153] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 17:26:27.319 IST [7154] LOG:  database system was shut down at 2022-08-08 17:26:09 IST
+2022-08-08 17:26:27.322 IST [7153] LOG:  database system is ready to accept connections
+2022-08-08 17:26:27.331 IST [7162] LOG:  ret = 0
+2022-08-08 17:26:27.331 IST [7162] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:26:27.333 IST [7161] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 17:26:27.335 IST [7161] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 17:26:27.335 IST [7161] LOG:  config_log worker: no configuration changes detected
+2022-08-08 17:27:48.147 IST [7153] LOG:  received fast shutdown request
+2022-08-08 17:27:48.150 IST [7153] LOG:  aborting any active transactions
+2022-08-08 17:27:48.151 IST [7153] LOG:  background worker "logical replication launcher" (PID 7163) exited with exit code 1
+2022-08-08 17:27:48.152 IST [7155] LOG:  shutting down
+2022-08-08 17:27:48.192 IST [7153] LOG:  database system is shut down
+2022-08-08 17:27:52.609 IST [7421] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 17:27:52.609 IST [7421] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 17:27:52.609 IST [7421] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 17:27:52.614 IST [7421] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 17:27:52.629 IST [7422] LOG:  database system was shut down at 2022-08-08 17:27:48 IST
+2022-08-08 17:27:52.634 IST [7421] LOG:  database system is ready to accept connections
+2022-08-08 17:27:52.641 IST [7430] LOG:  ret = 0
+2022-08-08 17:27:52.641 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:27:52.645 IST [7429] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 17:27:52.650 IST [7429] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 17:27:52.650 IST [7429] LOG:  config_log worker: no configuration changes detected
+2022-08-08 17:27:57.592 IST [7430] LOG:  ret = 0
+2022-08-08 17:27:57.592 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:28:02.593 IST [7430] LOG:  ret = 0
+2022-08-08 17:28:02.593 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:28:07.593 IST [7430] LOG:  ret = 0
+2022-08-08 17:28:07.593 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:28:12.594 IST [7430] LOG:  ret = 0
+2022-08-08 17:28:12.594 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:28:17.594 IST [7430] LOG:  ret = 0
+2022-08-08 17:28:17.594 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:28:22.595 IST [7430] LOG:  ret = 0
+2022-08-08 17:28:22.595 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:28:27.596 IST [7430] LOG:  ret = 0
+2022-08-08 17:28:27.596 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:28:32.597 IST [7430] LOG:  ret = 0
+2022-08-08 17:28:32.597 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:28:37.597 IST [7430] LOG:  ret = 0
+2022-08-08 17:28:37.597 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:28:42.598 IST [7430] LOG:  ret = 0
+2022-08-08 17:28:42.598 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:28:47.598 IST [7430] LOG:  ret = 0
+2022-08-08 17:28:47.598 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:28:52.599 IST [7430] LOG:  ret = 0
+2022-08-08 17:28:52.599 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:28:57.600 IST [7430] LOG:  ret = 0
+2022-08-08 17:28:57.600 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:29:02.600 IST [7430] LOG:  ret = 0
+2022-08-08 17:29:02.600 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:29:05.645 IST [7421] LOG:  received fast shutdown request
+2022-08-08 17:29:05.648 IST [7421] LOG:  aborting any active transactions
+2022-08-08 17:29:05.648 IST [7430] LOG:  ret = 0
+2022-08-08 17:29:05.648 IST [7430] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:29:05.649 IST [7421] LOG:  background worker "logical replication launcher" (PID 7431) exited with exit code 1
+2022-08-08 17:29:05.649 IST [7423] LOG:  shutting down
+2022-08-08 17:29:05.688 IST [7421] LOG:  database system is shut down
+2022-08-08 17:29:22.864 IST [7677] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 17:29:22.864 IST [7677] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 17:29:22.864 IST [7677] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 17:29:22.869 IST [7677] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 17:29:22.883 IST [7678] LOG:  database system was shut down at 2022-08-08 17:29:05 IST
+2022-08-08 17:29:22.887 IST [7677] LOG:  database system is ready to accept connections
+2022-08-08 17:29:22.895 IST [7686] LOG:  ret = 0
+2022-08-08 17:29:22.895 IST [7686] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:29:22.896 IST [7685] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 17:29:22.900 IST [7685] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 17:29:22.900 IST [7685] LOG:  config_log worker: no configuration changes detected
+2022-08-08 17:29:27.896 IST [7686] LOG:  ret = 0
+2022-08-08 17:29:27.896 IST [7686] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:29:32.896 IST [7686] LOG:  ret = 0
+2022-08-08 17:29:32.896 IST [7686] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:29:35.281 IST [7677] LOG:  received fast shutdown request
+2022-08-08 17:29:35.284 IST [7677] LOG:  aborting any active transactions
+2022-08-08 17:29:35.284 IST [7686] LOG:  ret = 0
+2022-08-08 17:29:35.284 IST [7686] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:29:35.285 IST [7677] LOG:  background worker "logical replication launcher" (PID 7687) exited with exit code 1
+2022-08-08 17:29:35.286 IST [7679] LOG:  shutting down
+2022-08-08 17:29:35.327 IST [7677] LOG:  database system is shut down
+2022-08-08 17:30:20.794 IST [8120] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 17:30:20.794 IST [8120] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 17:30:20.794 IST [8120] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 17:30:20.798 IST [8120] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 17:30:20.816 IST [8121] LOG:  database system was shut down at 2022-08-08 17:29:35 IST
+2022-08-08 17:30:20.819 IST [8120] LOG:  database system is ready to accept connections
+2022-08-08 17:30:20.826 IST [8129] LOG:  ret = 0
+2022-08-08 17:30:20.826 IST [8129] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:30:20.827 IST [8128] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 17:30:20.832 IST [8128] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 17:30:20.832 IST [8128] LOG:  config_log worker: no configuration changes detected
+2022-08-08 17:30:25.826 IST [8129] LOG:  ret = 0
+2022-08-08 17:30:25.826 IST [8129] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:30:30.827 IST [8129] LOG:  ret = 0
+2022-08-08 17:30:30.827 IST [8129] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:30:35.827 IST [8129] LOG:  ret = 0
+2022-08-08 17:30:35.827 IST [8129] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:30:40.828 IST [8129] LOG:  ret = 1
+2022-08-08 17:30:40.828 IST [8129] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:31:21.202 IST [8120] LOG:  received fast shutdown request
+2022-08-08 17:31:21.204 IST [8120] LOG:  aborting any active transactions
+2022-08-08 17:31:21.204 IST [8151] FATAL:  terminating connection due to administrator command
+2022-08-08 17:31:21.206 IST [8120] LOG:  background worker "logical replication launcher" (PID 8130) exited with exit code 1
+2022-08-08 17:31:21.211 IST [8122] LOG:  shutting down
+2022-08-08 17:31:21.288 IST [8120] LOG:  database system is shut down
+2022-08-08 17:38:50.186 IST [8715] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 17:38:50.186 IST [8715] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 17:38:50.186 IST [8715] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 17:38:50.190 IST [8715] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 17:38:50.208 IST [8716] LOG:  database system was shut down at 2022-08-08 17:31:21 IST
+2022-08-08 17:38:50.211 IST [8715] LOG:  database system is ready to accept connections
+2022-08-08 17:38:50.217 IST [8724] LOG:  ret = 1
+2022-08-08 17:38:50.217 IST [8724] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:38:50.217 IST [8723] LOG:  ret = 1
+2022-08-08 17:38:50.217 IST [8723] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:39:41.696 IST [8715] LOG:  received fast shutdown request
+2022-08-08 17:39:41.699 IST [8715] LOG:  aborting any active transactions
+2022-08-08 17:39:41.699 IST [8776] FATAL:  terminating connection due to administrator command
+2022-08-08 17:39:41.700 IST [8715] LOG:  background worker "logical replication launcher" (PID 8725) exited with exit code 1
+2022-08-08 17:39:41.706 IST [8717] LOG:  shutting down
+2022-08-08 17:39:41.756 IST [8715] LOG:  database system is shut down
+2022-08-08 17:40:16.444 IST [8876] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 17:40:16.444 IST [8876] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 17:40:16.444 IST [8876] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 17:40:16.448 IST [8876] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 17:40:16.465 IST [8877] LOG:  database system was shut down at 2022-08-08 17:39:41 IST
+2022-08-08 17:40:16.468 IST [8876] LOG:  database system is ready to accept connections
+2022-08-08 17:40:55.517 IST [8876] LOG:  received fast shutdown request
+2022-08-08 17:40:55.521 IST [8876] LOG:  aborting any active transactions
+2022-08-08 17:40:55.521 IST [8907] FATAL:  terminating connection due to administrator command
+2022-08-08 17:40:55.522 IST [8876] LOG:  background worker "logical replication launcher" (PID 8884) exited with exit code 1
+2022-08-08 17:40:55.523 IST [8878] LOG:  shutting down
+2022-08-08 17:40:55.574 IST [8876] LOG:  database system is shut down
+2022-08-08 17:41:03.290 IST [8980] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 17:41:03.290 IST [8980] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 17:41:03.290 IST [8980] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 17:41:03.294 IST [8980] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 17:41:03.312 IST [8981] LOG:  database system was shut down at 2022-08-08 17:40:55 IST
+2022-08-08 17:41:03.317 IST [8980] LOG:  database system is ready to accept connections
+2022-08-08 17:41:03.328 IST [8989] LOG:  ret = 0
+2022-08-08 17:41:03.328 IST [8989] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:41:03.328 IST [8988] LOG:  ret = 0
+2022-08-08 17:41:03.328 IST [8988] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:41:08.328 IST [8989] LOG:  ret = 0
+2022-08-08 17:41:08.328 IST [8989] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:41:08.328 IST [8988] LOG:  ret = 0
+2022-08-08 17:41:08.328 IST [8988] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:41:13.329 IST [8989] LOG:  ret = 0
+2022-08-08 17:41:13.329 IST [8989] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:41:13.329 IST [8988] LOG:  ret = 0
+2022-08-08 17:41:13.329 IST [8988] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:41:18.329 IST [8989] LOG:  ret = 0
+2022-08-08 17:41:18.329 IST [8989] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:41:18.329 IST [8988] LOG:  ret = 0
+2022-08-08 17:41:18.329 IST [8988] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:41:23.330 IST [8988] LOG:  ret = 0
+2022-08-08 17:41:23.330 IST [8988] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:41:23.330 IST [8989] LOG:  ret = 0
+2022-08-08 17:41:23.330 IST [8989] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:41:28.330 IST [8988] LOG:  ret = 0
+2022-08-08 17:41:28.330 IST [8988] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:41:28.331 IST [8989] LOG:  ret = 0
+2022-08-08 17:41:28.331 IST [8989] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:41:33.331 IST [8988] LOG:  ret = 0
+2022-08-08 17:41:33.331 IST [8988] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:41:33.331 IST [8989] LOG:  ret = 0
+2022-08-08 17:41:33.331 IST [8989] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:41:38.332 IST [8989] LOG:  ret = 1
+2022-08-08 17:41:38.332 IST [8989] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:41:38.332 IST [8988] LOG:  ret = 1
+2022-08-08 17:41:38.332 IST [8988] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:43:37.089 IST [8980] LOG:  received fast shutdown request
+2022-08-08 17:43:37.092 IST [8980] LOG:  aborting any active transactions
+2022-08-08 17:43:37.092 IST [9055] FATAL:  terminating connection due to administrator command
+2022-08-08 17:43:37.093 IST [8980] LOG:  background worker "logical replication launcher" (PID 8990) exited with exit code 1
+2022-08-08 17:43:37.099 IST [8982] LOG:  shutting down
+2022-08-08 17:43:37.182 IST [8980] LOG:  database system is shut down
+2022-08-08 17:51:40.929 IST [9630] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 17:51:40.929 IST [9630] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 17:51:40.929 IST [9630] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 17:51:40.933 IST [9630] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 17:51:40.946 IST [9631] LOG:  database system was shut down at 2022-08-08 17:43:37 IST
+2022-08-08 17:51:40.950 IST [9630] LOG:  database system is ready to accept connections
+2022-08-08 17:52:18.074 IST [9630] LOG:  received fast shutdown request
+2022-08-08 17:52:18.076 IST [9630] LOG:  aborting any active transactions
+2022-08-08 17:52:18.076 IST [9678] FATAL:  terminating connection due to administrator command
+2022-08-08 17:52:18.077 IST [9630] LOG:  background worker "logical replication launcher" (PID 9638) exited with exit code 1
+2022-08-08 17:52:18.078 IST [9632] LOG:  shutting down
+2022-08-08 17:52:18.126 IST [9630] LOG:  database system is shut down
+2022-08-08 17:52:27.170 IST [9756] FATAL:  could not load library "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/pg11/lib/postgresql/bw_topper.so": /home/local/ZOHOCORP/muguntha-pt5620/Desktop/pg11/lib/postgresql/bw_topper.so: undefined symbol: execute_students_insert
+2022-08-08 17:52:27.170 IST [9756] LOG:  database system is shut down
+2022-08-08 17:53:48.531 IST [9914] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 17:53:48.531 IST [9914] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 17:53:48.531 IST [9914] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 17:53:48.534 IST [9914] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 17:53:48.549 IST [9915] LOG:  database system was shut down at 2022-08-08 17:52:18 IST
+2022-08-08 17:53:48.554 IST [9914] LOG:  database system is ready to accept connections
+2022-08-08 17:54:57.913 IST [9946] ERROR:  relation "marks" does not exist at character 22
+2022-08-08 17:54:57.913 IST [9946] STATEMENT:  select count(*) from marks;
+2022-08-08 17:55:03.562 IST [9922] ERROR:  relation "toppers" does not exist at character 13
+2022-08-08 17:55:03.562 IST [9922] QUERY:  INSERT INTO toppers(SELECT students.name,students.student_id,score,temp.time from students,(SELECT student_id,(english+maths+science+social+gk) as score,time FROM marks ORDER BY time DESC,(english+maths+science+social+gk) DESC LIMIT 3) AS Temp WHERE students.student_id = temp.student_id) ORDER BY score DESC;
+2022-08-08 17:55:03.562 IST [9922] STATEMENT:  INSERT INTO toppers(SELECT students.name,students.student_id,score,temp.time from students,(SELECT student_id,(english+maths+science+social+gk) as score,time FROM marks ORDER BY time DESC,(english+maths+science+social+gk) DESC LIMIT 3) AS Temp WHERE students.student_id = temp.student_id) ORDER BY score DESC;
+2022-08-08 17:55:03.564 IST [9914] LOG:  background worker "bw_topper " (PID 9922) exited with exit code 1
+2022-08-08 17:55:03.609 IST [9923] ERROR:  relation "marks" does not exist at character 13
+2022-08-08 17:55:03.609 IST [9923] QUERY:  INSERT INTO marks VALUES (1,83,94,99,66,89,CURRENT_TIMESTAMP)
+2022-08-08 17:55:03.609 IST [9923] STATEMENT:  INSERT INTO marks VALUES (1,83,94,99,66,89,CURRENT_TIMESTAMP)
+2022-08-08 17:55:03.611 IST [9914] LOG:  background worker "bw_sm " (PID 9923) exited with exit code 1
+2022-08-08 17:56:52.912 IST [9914] LOG:  received fast shutdown request
+2022-08-08 17:56:52.916 IST [9914] LOG:  aborting any active transactions
+2022-08-08 17:56:52.916 IST [9946] FATAL:  terminating connection due to administrator command
+2022-08-08 17:56:52.916 IST [9914] LOG:  background worker "logical replication launcher" (PID 9924) exited with exit code 1
+2022-08-08 17:56:52.918 IST [9916] LOG:  shutting down
+2022-08-08 17:56:52.993 IST [9914] LOG:  database system is shut down
+2022-08-08 17:56:58.161 IST [10300] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 17:56:58.161 IST [10300] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 17:56:58.161 IST [10300] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 17:56:58.166 IST [10300] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 17:56:58.184 IST [10301] LOG:  database system was shut down at 2022-08-08 17:56:52 IST
+2022-08-08 17:56:58.188 IST [10300] LOG:  database system is ready to accept connections
+2022-08-08 17:58:38.074 IST [10300] LOG:  received fast shutdown request
+2022-08-08 17:58:38.077 IST [10300] LOG:  aborting any active transactions
+2022-08-08 17:58:38.077 IST [10312] FATAL:  terminating connection due to administrator command
+2022-08-08 17:58:38.077 IST [10300] LOG:  background worker "logical replication launcher" (PID 10310) exited with exit code 1
+2022-08-08 17:58:38.091 IST [10302] LOG:  shutting down
+2022-08-08 17:58:38.186 IST [10300] LOG:  database system is shut down
+2022-08-08 18:02:37.525 IST [10796] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 18:02:37.525 IST [10796] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 18:02:37.525 IST [10796] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 18:02:37.528 IST [10796] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 18:02:37.547 IST [10797] LOG:  database system was shut down at 2022-08-08 17:58:38 IST
+2022-08-08 18:02:37.550 IST [10796] LOG:  database system is ready to accept connections
+2022-08-08 18:02:52.219 IST [10825] ERROR:  extension "bwstudentsmarkstoppers" already exists
+2022-08-08 18:02:52.219 IST [10825] STATEMENT:  create extension bwstudentsmarkstoppers ;
+2022-08-08 18:03:03.057 IST [10796] LOG:  received fast shutdown request
+2022-08-08 18:03:03.060 IST [10796] LOG:  aborting any active transactions
+2022-08-08 18:03:03.060 IST [10825] FATAL:  terminating connection due to administrator command
+2022-08-08 18:03:03.061 IST [10796] LOG:  background worker "logical replication launcher" (PID 10804) exited with exit code 1
+2022-08-08 18:03:03.062 IST [10798] LOG:  shutting down
+2022-08-08 18:03:03.120 IST [10796] LOG:  database system is shut down
+2022-08-08 18:03:16.776 IST [10926] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 18:03:16.776 IST [10926] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 18:03:16.776 IST [10926] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 18:03:16.780 IST [10926] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 18:03:16.794 IST [10927] LOG:  database system was shut down at 2022-08-08 18:03:03 IST
+2022-08-08 18:03:16.798 IST [10926] LOG:  database system is ready to accept connections
+2022-08-08 18:03:26.476 IST [10968] ERROR:  extension "bwstudentsmarkstoppers" does not exist
+2022-08-08 18:03:26.476 IST [10968] STATEMENT:  drop extension bwstudentsmarkstoppers ;
+2022-08-08 18:22:54.681 IST [10926] LOG:  received fast shutdown request
+2022-08-08 18:22:54.684 IST [10926] LOG:  aborting any active transactions
+2022-08-08 18:22:54.684 IST [10968] FATAL:  terminating connection due to administrator command
+2022-08-08 18:22:54.685 IST [10926] LOG:  background worker "logical replication launcher" (PID 10936) exited with exit code 1
+2022-08-08 18:22:54.686 IST [10928] LOG:  shutting down
+2022-08-08 18:22:54.730 IST [10926] LOG:  database system is shut down
+2022-08-08 18:22:57.886 IST [12659] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 18:22:57.886 IST [12659] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 18:22:57.886 IST [12659] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 18:22:57.889 IST [12659] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 18:22:57.906 IST [12660] LOG:  database system was shut down at 2022-08-08 18:22:54 IST
+2022-08-08 18:22:57.910 IST [12659] LOG:  database system is ready to accept connections
+2022-08-08 18:23:06.705 IST [12689] ERROR:  relation "toppers" does not exist at character 22
+2022-08-08 18:23:06.705 IST [12689] STATEMENT:  select count(*) from toppers;
+2022-08-08 18:24:31.510 IST [12689] ERROR:  relation "toppers" does not exist at character 22
+2022-08-08 18:24:31.510 IST [12689] STATEMENT:  select count(*) from toppers;
+2022-08-08 18:25:15.488 IST [12689] ERROR:  syntax error at or near "%" at character 66
+2022-08-08 18:25:15.488 IST [12689] STATEMENT:  do $$
+	begin
+	   for i in 1..100 loop
+	INSERT INTO students VALUES (%,'name'%,'address'%,TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+	   end loop;
+	end; $$;
+2022-08-08 18:27:01.867 IST [12659] LOG:  received fast shutdown request
+2022-08-08 18:27:01.871 IST [12659] LOG:  aborting any active transactions
+2022-08-08 18:27:01.871 IST [12689] FATAL:  terminating connection due to administrator command
+2022-08-08 18:27:01.871 IST [12659] LOG:  background worker "logical replication launcher" (PID 12667) exited with exit code 1
+2022-08-08 18:27:01.872 IST [12661] LOG:  shutting down
+2022-08-08 18:27:01.953 IST [12659] LOG:  database system is shut down
+2022-08-08 18:27:10.949 IST [13191] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 18:27:10.949 IST [13191] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 18:27:10.949 IST [13191] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 18:27:10.953 IST [13191] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 18:27:10.967 IST [13192] LOG:  database system was shut down at 2022-08-08 18:27:01 IST
+2022-08-08 18:27:10.970 IST [13191] LOG:  database system is ready to accept connections
+2022-08-08 18:27:28.920 IST [13238] ERROR:  syntax error at or near "end" at character 227
+2022-08-08 18:27:28.920 IST [13238] QUERY:  
+	begin
+	   for i in 1..100 loop
+			INSERT INTO students VALUES ('%','name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+	   end loop;
+	end; 
+2022-08-08 18:27:28.920 IST [13238] STATEMENT:  create extension bwstudentsmarkstoppers ;
+2022-08-08 18:28:06.251 IST [13238] ERROR:  syntax error at or near "end" at character 230
+2022-08-08 18:28:06.251 IST [13238] STATEMENT:  do $$
+	begin
+	   for i in 1..100 loop
+	INSERT INTO students VALUES ('%','name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+	   end loop;
+	end; $$
+	;
+2022-08-08 18:28:42.092 IST [13238] ERROR:  syntax error at or near "end" at character 230
+2022-08-08 18:28:42.092 IST [13238] STATEMENT:  do $$
+	begin
+	   for i in 1..100 loop
+	INSERT INTO students VALUES ('%','name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+	   end loop
+	end; $$
+	;
+2022-08-08 18:30:58.286 IST [13238] ERROR:  syntax error at or near "%" at character 66
+2022-08-08 18:30:58.286 IST [13238] STATEMENT:  do $$
+	begin
+	   for i in 1..100 loop
+	INSERT INTO students VALUES (%,'name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar)),i,i,i;
+	   end loop;
+	end; $$
+	;
+2022-08-08 18:31:11.982 IST [13238] ERROR:  syntax error at or near "i" at character 227
+2022-08-08 18:31:11.982 IST [13238] STATEMENT:  do $$
+	begin
+	   for i in 1..100 loop
+	INSERT INTO students VALUES ('%','name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar)),i,i,i;
+	   end loop;
+	end; $$
+	;
+2022-08-08 18:31:39.240 IST [13238] ERROR:  syntax error at or near "i" at character 227
+2022-08-08 18:31:39.240 IST [13238] STATEMENT:  do $$
+	begin
+	   for i in 1..100 loop
+	INSERT INTO students VALUES ('%','name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar)),i;
+	   end loop;
+	end; $$
+	;
+2022-08-08 18:31:49.317 IST [13238] ERROR:  relation "students" does not exist at character 13
+2022-08-08 18:31:49.317 IST [13238] QUERY:  INSERT INTO students VALUES ('%','name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 18:31:49.317 IST [13238] CONTEXT:  PL/pgSQL function inline_code_block line 4 at SQL statement
+2022-08-08 18:31:49.317 IST [13238] STATEMENT:  do $$
+	begin
+	   for i in 1..100 loop
+	INSERT INTO students VALUES ('%','name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar));
+	   end loop;
+	end; $$
+	;
+2022-08-08 18:32:05.641 IST [13238] ERROR:  syntax error at or near "end" at character 227
+2022-08-08 18:32:05.641 IST [13238] QUERY:  
+	begin
+	   for i in 1..100 loop
+			INSERT INTO students VALUES ('%','name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+	   end loop;
+	end; 
+2022-08-08 18:32:05.641 IST [13238] STATEMENT:  create extension bwstudentsmarkstoppers ;
+2022-08-08 18:32:12.788 IST [13238] ERROR:  relation "students" does not exist at character 13
+2022-08-08 18:32:12.788 IST [13238] QUERY:  INSERT INTO students VALUES ('%','name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 18:32:12.788 IST [13238] CONTEXT:  PL/pgSQL function inline_code_block line 4 at SQL statement
+2022-08-08 18:32:12.788 IST [13238] STATEMENT:  do $$
+	begin
+	   for i in 1..100 loop
+	INSERT INTO students VALUES ('%','name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar));
+	   end loop;
+	end; $$
+	;
+2022-08-08 18:32:52.654 IST [13191] LOG:  received fast shutdown request
+2022-08-08 18:32:52.656 IST [13191] LOG:  aborting any active transactions
+2022-08-08 18:32:52.656 IST [13238] FATAL:  terminating connection due to administrator command
+2022-08-08 18:32:52.657 IST [13191] LOG:  background worker "logical replication launcher" (PID 13199) exited with exit code 1
+2022-08-08 18:32:52.658 IST [13193] LOG:  shutting down
+2022-08-08 18:32:52.698 IST [13191] LOG:  database system is shut down
+2022-08-08 18:32:53.821 IST [13768] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 18:32:53.821 IST [13768] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 18:32:53.821 IST [13768] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 18:32:53.826 IST [13768] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 18:32:53.843 IST [13769] LOG:  database system was shut down at 2022-08-08 18:32:52 IST
+2022-08-08 18:32:53.846 IST [13768] LOG:  database system is ready to accept connections
+2022-08-08 18:32:54.752 IST [13768] LOG:  received fast shutdown request
+2022-08-08 18:32:54.757 IST [13768] LOG:  aborting any active transactions
+2022-08-08 18:32:54.758 IST [13768] LOG:  background worker "logical replication launcher" (PID 13776) exited with exit code 1
+2022-08-08 18:32:54.758 IST [13770] LOG:  shutting down
+2022-08-08 18:32:54.806 IST [13768] LOG:  database system is shut down
+2022-08-08 18:33:02.491 IST [13862] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 18:33:02.491 IST [13862] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 18:33:02.491 IST [13862] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 18:33:02.494 IST [13862] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 18:33:02.507 IST [13863] LOG:  database system was shut down at 2022-08-08 18:32:54 IST
+2022-08-08 18:33:02.510 IST [13862] LOG:  database system is ready to accept connections
+2022-08-08 18:33:20.604 IST [13890] ERROR:  invalid input syntax for integer: "%" at character 30
+2022-08-08 18:33:20.604 IST [13890] STATEMENT:  INSERT INTO students VALUES ('%','name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+	;
+2022-08-08 18:33:35.010 IST [13890] ERROR:  syntax error at or near "%" at character 30
+2022-08-08 18:33:35.010 IST [13890] STATEMENT:  INSERT INTO students VALUES (%,'name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+	;
+2022-08-08 18:34:40.821 IST [13890] ERROR:  syntax error at or near "INSERT" at character 253
+2022-08-08 18:34:40.821 IST [13890] STATEMENT:  do $$
+	begin
+	   for i in 1..100 loop
+	INSERT INTO students VALUES (%,'name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar)),i,i,i;
+	   end loop;
+	end; $$
+	INSERT INTO students VALUES (%,'name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+	;
+2022-08-08 18:34:46.252 IST [13890] ERROR:  syntax error at or near "%" at character 66
+2022-08-08 18:34:46.252 IST [13890] STATEMENT:  do $$
+	begin
+	   for i in 1..100 loop
+	INSERT INTO students VALUES (%,'name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar)),i,i,i;
+	   end loop;
+	end; $$;
+2022-08-08 18:35:13.900 IST [13890] ERROR:  syntax error at or near "i" at character 74
+2022-08-08 18:35:13.900 IST [13890] STATEMENT:  do $$
+	begin
+	   for i in 1..100 loop
+	INSERT INTO students VALUES (i,'name'i,'address'i,TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar));
+	   end loop;
+	end; $$;
+2022-08-08 18:35:46.743 IST [13890] ERROR:  syntax error at or near "i" at character 226
+2022-08-08 18:35:46.743 IST [13890] STATEMENT:  do $$
+	begin
+	   for i in 1..100 loop
+	INSERT INTO students VALUES (i,'name%','address%',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar)) ,i,i;
+	   end loop;
+	end; $$;
+2022-08-08 18:38:06.147 IST [13862] LOG:  received fast shutdown request
+2022-08-08 18:38:06.151 IST [13862] LOG:  aborting any active transactions
+2022-08-08 18:38:06.151 IST [13890] FATAL:  terminating connection due to administrator command
+2022-08-08 18:38:06.151 IST [13862] LOG:  background worker "logical replication launcher" (PID 13870) exited with exit code 1
+2022-08-08 18:38:06.198 IST [13864] LOG:  shutting down
+2022-08-08 18:38:06.244 IST [13862] LOG:  database system is shut down
+2022-08-08 18:38:17.816 IST [15064] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 18:38:17.816 IST [15064] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 18:38:17.816 IST [15064] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 18:38:17.821 IST [15064] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 18:38:17.830 IST [15065] LOG:  database system was shut down at 2022-08-08 18:38:06 IST
+2022-08-08 18:38:17.834 IST [15064] LOG:  database system is ready to accept connections
+2022-08-08 18:39:22.918 IST [15064] LOG:  received fast shutdown request
+2022-08-08 18:39:22.921 IST [15064] LOG:  aborting any active transactions
+2022-08-08 18:39:22.921 IST [15103] FATAL:  terminating connection due to administrator command
+2022-08-08 18:39:22.921 IST [15064] LOG:  background worker "logical replication launcher" (PID 15072) exited with exit code 1
+2022-08-08 18:39:22.923 IST [15066] LOG:  shutting down
+2022-08-08 18:39:23.024 IST [15064] LOG:  database system is shut down
+2022-08-08 18:39:34.061 IST [15256] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 18:39:34.061 IST [15256] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 18:39:34.062 IST [15256] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 18:39:34.067 IST [15256] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 18:39:34.083 IST [15257] LOG:  database system was shut down at 2022-08-08 18:39:23 IST
+2022-08-08 18:39:34.087 IST [15256] LOG:  database system is ready to accept connections
+2022-08-08 18:43:09.247 IST [15256] LOG:  received fast shutdown request
+2022-08-08 18:43:09.251 IST [15256] LOG:  aborting any active transactions
+2022-08-08 18:43:09.252 IST [15256] LOG:  background worker "logical replication launcher" (PID 15266) exited with exit code 1
+2022-08-08 18:43:09.258 IST [15258] LOG:  shutting down
+2022-08-08 18:43:09.351 IST [15256] LOG:  database system is shut down
+2022-08-08 18:43:50.723 IST [16029] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 18:43:50.723 IST [16029] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 18:43:50.723 IST [16029] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 18:43:50.726 IST [16029] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 18:43:50.741 IST [16030] LOG:  database system was shut down at 2022-08-08 18:43:09 IST
+2022-08-08 18:43:50.744 IST [16029] LOG:  database system is ready to accept connections
+2022-08-08 18:45:30.564 IST [16088] ERROR:  extension "bwstudentsmarkstoppers" already exists
+2022-08-08 18:45:30.564 IST [16088] STATEMENT:  create extension bwstudentsmarkstoppers ;
+2022-08-08 18:46:32.048 IST [16029] LOG:  received fast shutdown request
+2022-08-08 18:46:32.051 IST [16029] LOG:  aborting any active transactions
+2022-08-08 18:46:32.051 IST [16088] FATAL:  terminating connection due to administrator command
+2022-08-08 18:46:32.052 IST [16029] LOG:  background worker "logical replication launcher" (PID 16039) exited with exit code 1
+2022-08-08 18:46:32.053 IST [16031] LOG:  shutting down
+2022-08-08 18:46:32.134 IST [16029] LOG:  database system is shut down
+2022-08-08 18:48:32.798 IST [16451] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2022-08-08 18:48:32.798 IST [16451] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-08-08 18:48:32.798 IST [16451] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 18:48:32.801 IST [16451] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 18:48:32.811 IST [16452] LOG:  database system was shut down at 2022-08-08 18:46:32 IST
+2022-08-08 18:48:32.814 IST [16451] LOG:  database system is ready to accept connections
+2022-08-08 18:52:18.411 IST [16451] LOG:  received fast shutdown request
+2022-08-08 18:52:18.414 IST [16451] LOG:  aborting any active transactions
+2022-08-08 18:52:18.414 IST [16731] FATAL:  terminating connection due to administrator command
+2022-08-08 18:52:18.415 IST [16451] LOG:  background worker "logical replication launcher" (PID 16461) exited with exit code 1
+2022-08-08 18:52:18.416 IST [16453] LOG:  shutting down
+2022-08-08 18:52:18.491 IST [16451] LOG:  database system is shut down

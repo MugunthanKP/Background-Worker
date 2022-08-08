@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Aug  4 19:17:59 2022
+# Make data base, printed on Mon Aug  8 18:51:20 2022
 
 # Variables
 
@@ -14,37 +16,20 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 GNUMAKEFLAGS := 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 404)
-PROVE = 
 # automatic
 ?F = $(notdir $?)
 # environment
 DESKTOP_SESSION = ubuntu
 # default
- 
 .SHELLFLAGS := -c
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 225)
-TCL_SHLIB_LD_LIBS = 
 # environment
 XDG_SESSION_CLASS = user
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 276)
-FLEXFLAGS = $(LFLAGS)
 # environment
 XDG_SESSION_TYPE = x11
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 232)
-CLANG = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 205)
-enable_thread_safety = yes
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 333)
-perl_archlibexp = 
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
 IM_CONFIG_PHASE = 1
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 451)
-INSTALL = $(if $(use_install_sh),$(install_sh),$(if $(install_bin),$(install_bin),$(install_sh)))
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 234)
-BITCODE_CXXFLAGS = -O2 
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -53,610 +38,176 @@ XAUTHORITY = /run/user/618242907/gdm/Xauthority
 GDMSESSION = ubuntu
 # environment
 XMODIFIERS = @im=ibus
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 220)
-TCLSH = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 705)
-LIBOBJS = ${LIBOBJDIR}fls$U.o ${LIBOBJDIR}strlcat$U.o ${LIBOBJDIR}strlcpy$U.o ${LIBOBJDIR}getpeereid$U.o
 # makefile
 CURDIR := /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04
 # makefile
 SHELL = /bin/sh
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 142)
-HEADER_alldirs := $(subst ,, )
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 318)
-LDFLAGS_SL = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 227)
-PTHREAD_CFLAGS = -pthread -D_REENTRANT -D_THREAD_SAFE -D_POSIX_PTHREAD_SEMANTICS
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 323)
-X = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 319)
-LDREL = -r
 # environment
 _ = /usr/share/code/code
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 230)
-LLVM_CONFIG = 
-# 'override' directive (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 100)
-CFLAGS = -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Wendif-labels -Wmissing-format-attribute -Wformat-security -fno-strict-aliasing -fwrapv -fexcess-precision=standard -Wno-format-truncation -Wno-stringop-truncation -O2 $(CFLAGS_SL)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 310)
-LDFLAGS_INTERNAL = -L$(libdir)
 # environment
-JOURNAL_STREAM = 8:49126
+JOURNAL_STREAM = 8:52886
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 517)
-WIN32_STACK_RLIMIT = 4194304
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 507)
-host_cpu = x86_64
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 197)
-define install_headers
-$(MKDIR_P) '$(DESTDIR)$(includedir_server)/$(incmoduledir)/$(1)/'
-$(INSTALL_DATA) $(2) '$(DESTDIR)$(includedir_server)/$(incmoduledir)/$(1)/'
-
-endef
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 337)
-perl_embed_ldflags = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 228)
-PTHREAD_LIBS = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 206)
-enable_strong_random = yes
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port', line 1)
-MAKEFILE_LIST :=  Makefile /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 880)
-autodepend = 
+# makefile
+MAKEFILE_LIST := 
 # automatic
 @F = $(notdir $@)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 190)
-with_gssapi = no
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 285)
-DLLWRAP = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 258)
-GCC = yes
 # environment
 GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 350)
-GZIP = gzip
 # environment
 USERNAME = muguntha-pt5620
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 474)
-FOP = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 193)
-with_libxml = no
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 199)
-enable_rpath = yes
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 265)
-CXXFLAGS = -Wall -Wpointer-arith -O2
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 162)
-pkgincludedir := /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/include/postgresql
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 322)
-WINDRES = 
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/618242907/bus
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 196)
-with_system_tzdata = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 39)
-VERSION = 11.4
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 289)
-UUID_LIBS = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 443)
-prove_installcheck = @echo "TAP tests not enabled"
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 345)
-MSGMERGE = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 841)
-define _create_recursive_target
-.PHONY: $(1)-$(2)-recurse
-$(1): $(1)-$(2)-recurse
-$(1)-$(2)-recurse: $(if $(filter all install check installcheck, $(3)), submake-generated-headers) $(if $(filter check, $(3)), temp-install)
-	$$(MAKE) -C $(2) $(3)
-endef
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 341)
-AWK = mawk
-# 'override' directive (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 97)
-CPPFLAGS := -I. -I./ -I/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/include/postgresql/server -I/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/include/postgresql/internal  -D_GNU_SOURCE 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 114)
-docmoduledir := contrib
 # environment
-MANAGERPID = 2827
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port', line 8)
-DLSUFFIX = .so
+MANAGERPID = 2816
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 277)
-DTRACE = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 242)
-CPP = gcc -E
 # environment
 VSCODE_CWD = /home/local/ZOHOCORP/muguntha-pt5620
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 113)
-datamoduledir := contrib
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 171)
-includedir_server = $(pkgincludedir)/server
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 192)
-with_ldap = no
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 503)
-build_os = linux-gnu
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 185)
-with_python = no
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 184)
-with_perl = no
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 492)
-WANTED_LANGUAGES = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 293)
-with_gnu_ld = yes
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 274)
-BISONFLAGS = $(YFLAGS)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 564)
-libpq_pgport = -L$(libdir) -lpgcommon -lpgport $(libpq)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port', line 3)
-export_dynamic = -Wl,-E
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 22)
-standard_targets = all install installdirs uninstall distprep clean distclean maintainer-clean coverage check checkprep installcheck init-po update-po
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 292)
-LD = /usr/bin/ld
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 45)
-top_srcdir = $(top_builddir)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 284)
-DLLTOOL = 
+PATH = /home/local/ZOHOCORP/muguntha-pt5620/.local/bin:/home/local/ZOHOCORP/muguntha-pt5620/Desktop/pg11/bin:/home/local/ZOHOCORP/muguntha-pt5620/.nvm/versions/node/v18.7.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 GPG_AGENT_INFO = /run/user/618242907/gnupg/S.gpg-agent:0:1
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 491)
-DEF_PGPORT = 5432
 # environment
-SESSION_MANAGER = local/muguntha-pt5620:@/tmp/.ICE-unix/3043,unix/muguntha-pt5620:/tmp/.ICE-unix/3043
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 188)
-with_selinux = no
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 165)
-localedir := /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/share/locale
+SESSION_MANAGER = local/muguntha-pt5620:@/tmp/.ICE-unix/3033,unix/muguntha-pt5620:/tmp/.ICE-unix/3033
 # environment
 XDG_RUNTIME_DIR = /run/user/618242907
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 161)
-includedir := /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/include
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 510)
-HAVE_IPV6 = yes
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 454)
-INSTALL_DATA_MODE = 644
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 211)
-python_additional_libs = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 475)
-XMLLINT = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 263)
-CFLAGS_SSE42 = -msse4.2
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 636)
-pg_regress_installcheck = $(top_builddir)/src/test/regress/pg_regress --inputdir=$(srcdir) --bindir='$(bindir)' $(pg_regress_locale_flags) $(EXTRA_REGRESS_OPTS)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 158)
-sysconfdir := /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/etc/postgresql
+# environment
+NVM_BIN = /home/local/ZOHOCORP/muguntha-pt5620/.nvm/versions/node/v18.7.0/bin
 # environment
 XDG_MENU_PREFIX = gnome-
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 283)
-AR = ar
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = eaf48989a2564e0393a63fcb36257260
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 290)
-UUID_EXTRA_OBJS = 
+INVOCATION_ID = d34c3fceaaff47cd9fd8670682e9107b
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 209)
-python_libdir = 
-# makefile (from 'Makefile', line 1)
-MODULES = hello_world
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 449)
-install_bin = /usr/bin/install -c
 # environment
 LS_COLORS = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 224)
-TCL_SHARED_BUILD = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 203)
-define uninstall_headers
-rm -f $(addprefix '$(DESTDIR)$(includedir_server)/$(incmoduledir)/$(1)'/, $(notdir $(2)))
-
-endef
 # environment
 XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/618242907/keyring/ssh
 # environment
- 
-GIO_LAUNCHED_DESKTOP_FILE_PID = 85517
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 650)
-pg_isolation_regress_installcheck = $(top_builddir)/src/test/isolation/pg_isolation_regress --inputdir=$(srcdir) --outputdir=output_iso --bindir='$(bindir)' $(pg_regress_locale_flags) $(EXTRA_REGRESS_OPTS)
+GIO_LAUNCHED_DESKTOP_FILE_PID = 17296
 # automatic
 %F = $(notdir $%)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 620)
-TEMP_CONF = 
 # environment
 DISPLAY = :0
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 203)
-enable_coverage = no
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 56)
-srcdir = $(dir $(firstword $(MAKEFILE_LIST)))
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 612)
-CONTRIB_TESTDB = contrib_regression
 # environment
 PWD = /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 546)
-libpq_builddir = $(libdir)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 156)
-bindir := /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/bin
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 351)
-BZIP2 = bzip2
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 3006
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 163)
-mandir := /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/share/man
+SSH_AGENT_PID = 2995
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 458)
-INSTALL_STLIB = $(INSTALL_STLIB_ENV) $(INSTALL_DATA) $(INSTALL_STRIP_FLAG)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 159)
-libdir := /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib
 # environment
 GTK_MODULES = gail:atk-bridge
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 346)
-PYTHON = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 453)
-INSTALL_SCRIPT_MODE = 755
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /home/local/ZOHOCORP/muguntha-pt5620
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 450)
-install_sh = $(SHELL) $(top_srcdir)/config/install-sh -c
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 856)
-recurse = $(foreach target,$(if $1,$1,$(standard_targets)),$(foreach subdir,$(if $2,$2,$(SUBDIRS)),$(eval $(call _create_recursive_target,$(target),$(subdir),$(if $3,$3,$(target))))))
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 204)
-enable_tap_tests = no
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 412)
-add_to_path = $(1)="$(if $($(1)),$(2):$$$(1),$(2))"
 # environment
 VSCODE_CODE_CACHE_PATH = /home/local/ZOHOCORP/muguntha-pt5620/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 347)
-TAR = /usr/bin/tar
 # environment
 LOGNAME = muguntha-pt5620
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 217)
-ICU_CFLAGS = 
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 174)
-bitcodedir = $(pkglibdir)/bitcode
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 321)
-RANLIB = ranlib
-# makefile (from 'Makefile', line 3)
-PGXS := /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 223)
-TCL_INCLUDE_SPEC = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 184)
-header_file_list = $(HEADER_built_$(1)) $(addprefix $(srcdir)/,$(HEADER_unbuilt_$(1)))
+# environment
+NVM_CD_FLAGS = 
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 221)
-TCL_LIBS = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 267)
-LLVM_CPPFLAGS = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 218)
-ICU_LIBS = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 189)
-with_systemd = no
 # environment
 MAKELEVEL := 0
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 173)
-pgxsdir = $(pkglibdir)/pgxs
 # default
 MAKE = $(MAKE_COMMAND)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 210)
-python_libspec = 
 # default
 MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 465)
-missing = $(SHELL) $(top_srcdir)/config/missing
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 316)
-LDFLAGS_EX = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 469)
-STRIP_SHARED_LIB = strip --strip-unneeded
 # environment
 SHLVL = 0
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 480)
-GCOV = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 244)
-PG_SYSROOT = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 197)
-with_uuid = no
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 343)
-MSGFMT = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 611)
-PL_TESTDB = pl_regression
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 257)
-CC = gcc
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 264)
-CFLAGS_ARMV8_CRC32C = 
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 1026)
-COMPILE.cxx.bc = $(CLANG) -xc++ -Wno-ignored-attributes $(BITCODE_CXXFLAGS) $(CPPFLAGS) -flto=thin -emit-llvm -c
 # default
 MAKE_VERSION := 4.2.1
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 481)
-LCOV = 
 # environment
 USER = muguntha-pt5620
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 75)
-vpathsearch = `for f in $(addsuffix /$(1),$(subst :, ,. $(VPATH))); do test -r $$f && echo $$f && break; done`
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 41)
-VERSION_NUM = 110004
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 187)
-with_openssl = no
 # makefile
-.DEFAULT_GOAL := all
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 24)
-standard_always_targets = distprep clean distclean maintainer-clean
+.DEFAULT_GOAL := 
 # environment
 XDG_CURRENT_DESKTOP = Unity
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 213)
-python_version = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 463)
-MKDIR_P = /usr/bin/mkdir -p
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 1061)
-define uninstall_llvm_module
-rm -rf '$(DESTDIR)${bitcodedir}/$(1)/'
-rm -f '$(DESTDIR)${bitcodedir}/$(1).index.bc'
-
-endef
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 291)
-LLVM_LIBS = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 320)
-LDOUT = -o
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 279)
-ZIC = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 186)
-with_tcl = no
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 191)
-with_krb_srvnam = postgres
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 506)
-host_os = linux-gnu
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 198)
-with_zlib = yes
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 269)
-LLVM_CXXFLAGS = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port', line 1)
-AROPT = crs
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 183)
-with_icu = no
 # default
 MAKE_COMMAND := make
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 456)
-INSTALL_SCRIPT = $(INSTALL) -m $(INSTALL_SCRIPT_MODE)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 514)
-ELF_SYSTEM = true
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 288)
-LDAP_LIBS_BE = 
 # default
- 
-.VARIABLES := GNUMAKEFLAGS <D PROVE ?F DESKTOP_SESSION .SHELLFLAGS TCL_SHLIB_LD_LIBS XDG_SESSION_CLASS FLEXFLAGS XDG_SESSION_TYPE CLANG enable_thread_safety perl_archlibexp ?D IM_CONFIG_PHASE INSTALL BITCODE_CXXFLAGS @D XAUTHORITY GDMSESSION XMODIFIERS TCLSH LIBOBJS CURDIR SHELL HEADER_alldirs LDFLAGS_SL PTHREAD_CFLAGS VSCODE_NLS_CONFIG X LDREL _ LLVM_CONFIG CFLAGS LDFLAGS_INTERNAL JOURNAL_STREAM XDG_CONFIG_DIRS WIN32_STACK_RLIMIT host_cpu perl_embed_ldflags PTHREAD_LIBS enable_strong_random MAKEFILE_LIST autodepend @F with_gssapi DLLWRAP GCC GIO_LAUNCHED_DESKTOP_FILE GZIP USERNAME FOP with_libxml enable_rpath CXXFLAGS pkgincludedir XDG_DATA_DIRS WINDRES DBUS_SESSION_BUS_ADDRESS with_system_tzdata VERSION UUID_LIBS prove_installcheck MSGMERGE _create_recursive_target AWK CPPFLAGS docmoduledir MANAGERPID DLSUFFIX LESSOPEN DTRACE CPP VSCODE_CWD datamoduledir includedir_server with_ldap build_os with_python with_perl WANTED_LANGUAGES with_gnu_ld MAKE_HOST PATH BISONFLAGS libpq_pgport export_dynamic standard_targets LD top_srcdir DLLTOOL GPG_AGENT_INFO DEF_PGPORT SESSION_MANAGER with_selinux localedir XDG_RUNTIME_DIR includedir HAVE_IPV6 INSTALL_DATA_MODE python_additional_libs XMLLINT CFLAGS_SSE42 pg_regress_installcheck sysconfdir XDG_MENU_PREFIX AR ELECTRON_RUN_AS_NODE INVOCATION_ID UUID_EXTRA_OBJS .FEATURES python_libdir MODULES install_bin LS_COLORS TCL_SHARED_BUILD XDG_SESSION_DESKTOP SSH_AUTH_SOCK GIO_LAUNCHED_DESKTOP_FILE_PID pg_isolation_regress_installcheck %F TEMP_CONF DISPLAY enable_coverage srcdir CONTRIB_TESTDB PWD libpq_builddir bindir BZIP2 .LOADED SSH_AGENT_PID mandir ORIGINAL_XDG_CURRENT_DESKTOP INSTALL_STLIB libdir GTK_MODULES PYTHON INSTALL_SCRIPT_MODE VSCODE_AMD_ENTRYPOINT HOME install_sh recurse enable_tap_tests LESSCLOSE add_to_path VSCODE_CODE_CACHE_PATH TAR LOGNAME ICU_CFLAGS APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL bitcodedir RANLIB PGXS TCL_INCLUDE_SPEC VSCODE_HANDLES_UNCAUGHT_ERRORS GNOME_DESKTOP_SESSION_ID ^D TCL_LIBS LLVM_CPPFLAGS ICU_LIBS with_systemd MAKELEVEL pgxsdir MAKE python_libspec MAKECMDGOALS QT_IM_MODULE missing LDFLAGS_EX STRIP_SHARED_LIB SHLVL GCOV PG_SYSROOT with_uuid MSGFMT PL_TESTDB CC CFLAGS_ARMV8_CRC32C GNOME_SHELL_SESSION_MODE COMPILE.cxx.bc MAKE_VERSION LCOV USER vpathsearch VERSION_NUM with_openssl .DEFAULT_GOAL standard_always_targets XDG_CURRENT_DESKTOP python_version MKDIR_P uninstall_llvm_module LLVM_LIBS LDOUT ZIC with_tcl with_krb_srvnam host_os %D with_zlib LLVM_CXXFLAGS AROPT with_icu MAKE_COMMAND INSTALL_SCRIPT ELF_SYSTEM LDAP_LIBS_BE .VARIABLES incmoduledir *F LANGUAGE prove_check VSCODE_IPC_HOOK MSGFMT_FLAGS FLEX PORTNAME MAKEFLAGS MFLAGS *D krb_srvtab PG_CRC32C_OBJS have_win32_dbghelp DBTOEPUB includedir_internal BISON +D pg_regress_clean_files GDK_BACKEND enable_dtrace TAS +F MAJORVERSION enable_debug LDAP_LIBS_FE LLVM_CFLAGS STRIP QT_ACCESSIBILITY PROVE_FLAGS CFLAGS_VECTOR LDFLAGS with_libxslt ld_library_path_var .SHELLSTATUS MAKEFILES PG_CONFIG top_builddir perl_includespec <F INSTALL_SHLIB_OPTS LN_S NO_TEMP_INSTALL CFLAGS_SL STRIP_STATIC_LIB CXX pg_regress_locale_flags pkglibdir DTRACEFLAGS PERL with_temp_install pg_regress_check COMPILE.c.bc LC_ALL recurse_always INSTALL_PROGRAM python_includespec LLVM_BINPATH TCL_LIB_SPEC libpq_srcdir PG_PROVE_FLAGS GJS_DEBUG_TOPICS LIBS perl_embed_ccflags ^F python_majorversion pg_isolation_regress_check SUFFIXES INSTALL_SHLIB CHROME_DESKTOP SUN_STUDIO_CC GENHTML WINDOWPATH enable_nls libpq .INCLUDE_DIRS INSTALL_DATA GJS_DEBUG_OUTPUT docdir perl_privlibexp XGETTEXT .RECIPEPREFIX NO_GENERATED_HEADERS rpath XSLTPROC install_llvm_module LANG configure_args host_tuple datadir VSCODE_PID rpathdir BITCODE_CFLAGS with_llvm
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 115)
-incmoduledir := contrib
+.VARIABLES := 
 # automatic
 *F = $(notdir $*)
 # environment
 LANGUAGE = en_IN:en
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 444)
-prove_check = $(prove_installcheck)
 # environment
 VSCODE_IPC_HOOK = /run/user/618242907/vscode-f3aabaa2-1.69.2-main.sock
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 344)
-MSGFMT_FLAGS = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 91)
-FLEX = flex
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 501)
-PORTNAME = linux
 # makefile
 MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 215)
-krb_srvtab = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 708)
-PG_CRC32C_OBJS = pg_crc32c_sse42.o pg_crc32c_sb8.o pg_crc32c_sse42_choose.o
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 520)
-have_win32_dbghelp = no
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 473)
-DBTOEPUB = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 172)
-includedir_internal = $(pkgincludedir)/internal
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 88)
-BISON = bison
+# environment
+NVM_DIR = /home/local/ZOHOCORP/muguntha-pt5620/.nvm
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 626)
-pg_regress_clean_files = results/ regression.diffs regression.out tmp_check/ tmp_check_iso/ log/ output_iso/
 # environment
 GDK_BACKEND = x11
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 202)
-enable_dtrace = no
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 718)
-TAS = 
 # automatic
 +F = $(notdir $+)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 40)
-MAJORVERSION = 11
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 201)
-enable_debug = no
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 287)
-LDAP_LIBS_FE = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 145)
-HEADER_allbuilt := 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 268)
-LLVM_CFLAGS = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 467)
-STRIP = strip
 # environment
 QT_ACCESSIBILITY = 1
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 409)
-PROVE_FLAGS = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 262)
-CFLAGS_VECTOR = -funroll-loops -ftree-vectorize
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 530)
-LDFLAGS = $(LDFLAGS_INTERNAL)   -Wl,--as-needed $(rpath)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 194)
-with_libxslt = no
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 418)
-ld_library_path_var = LD_LIBRARY_PATH
-# 'override' directive
-.SHELLSTATUS := 0
 # default
 MAKEFILES := 
-# makefile (from 'Makefile', line 2)
-PG_CONFIG = /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/bin/pg_config
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 81)
-top_builddir := /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../..
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 335)
-perl_includespec = 
+# environment
+PG_CONFIG = /home/local/ZOHOCORP/muguntha-pt5620/Desktop/pg11/bin/pg_config
 # automatic
 <F = $(notdir $<)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 461)
-INSTALL_SHLIB_OPTS = -m 755
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 342)
-LN_S = ln -s
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 78)
-NO_TEMP_INSTALL = yes
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 192)
-HEADER_dirs := 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port', line 10)
-CFLAGS_SL = -fPIC
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 167)
-HEADER_xdirs := 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 468)
-STRIP_STATIC_LIB = strip -x
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 260)
-CXX = g++
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 625)
-pg_regress_locale_flags = $(if $(ENCODING),--encoding=$(ENCODING)) $(NOLOCALE)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 160)
-pkglibdir := /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 278)
-DTRACEFLAGS = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 329)
-PERL = '/usr/bin/perl'
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 423)
-with_temp_install = PATH="$(abs_top_builddir)/tmp_install$(bindir):$$PATH" $(call add_to_path,$(strip $(ld_library_path_var)),$(abs_top_builddir)/tmp_install$(libdir)) $(with_temp_install_extra)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 628)
-pg_regress_check = $(with_temp_install) $(top_builddir)/src/test/regress/pg_regress --temp-instance=./tmp_check --inputdir=$(srcdir) --bindir= $(TEMP_CONF) $(pg_regress_locale_flags) $(EXTRA_REGRESS_OPTS)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 1022)
-COMPILE.c.bc = $(CLANG) -Wno-ignored-attributes $(BITCODE_CFLAGS) $(CPPFLAGS) -flto=thin -emit-llvm -c
 # environment
 LC_ALL = C
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 866)
-recurse_always = $(foreach target,$(if $1,$1,$(standard_always_targets)),$(foreach subdir,$(if $2,$2,$(ALWAYS_SUBDIRS)),$(eval $(call _create_recursive_target,$(target),$(subdir),$(if $3,$3,$(target))))))
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 455)
-INSTALL_PROGRAM = $(INSTALL_PROGRAM_ENV) $(INSTALL) $(INSTALL_STRIP_FLAG)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 208)
-python_includespec = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 231)
-LLVM_BINPATH = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 222)
-TCL_LIB_SPEC = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 545)
-libpq_srcdir = $(includedir)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 407)
-PG_PROVE_FLAGS = -I $(top_srcdir)/src/test/perl/ -I $(srcdir)
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 710)
-LIBS := -lpgcommon -lpgport -lpthread -lz -lreadline -lrt -lcrypt -ldl -lm 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 336)
-perl_embed_ccflags = 
 # automatic
 ^F = $(notdir $^)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 212)
-python_majorversion = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 642)
-pg_isolation_regress_check = $(with_temp_install) $(top_builddir)/src/test/isolation/pg_isolation_regress --temp-instance=./tmp_check_iso --inputdir=$(srcdir) --outputdir=output_iso --bindir= $(TEMP_CONF) $(pg_regress_locale_flags) $(EXTRA_REGRESS_OPTS)
 # default
 SUFFIXES := 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 459)
-INSTALL_SHLIB = $(INSTALL_SHLIB_ENV) $(INSTALL) $(INSTALL_SHLIB_OPTS) $(INSTALL_STRIP_FLAG)
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 259)
-SUN_STUDIO_CC = no
- 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 482)
-GENHTML = 
 # environment
 WINDOWPATH = 2
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 200)
-enable_nls = no
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 554)
-libpq = -L$(libpq_builddir) -lpq
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 457)
-INSTALL_DATA = $(INSTALL) -m $(INSTALL_DATA_MODE)
 # environment
 GJS_DEBUG_OUTPUT = stderr
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 164)
-docdir := /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/share/doc/postgresql
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 334)
-perl_privlibexp = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 348)
-XGETTEXT = 
 # default
 .RECIPEPREFIX := 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 76)
-NO_GENERATED_HEADERS = yes
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port', line 6)
-rpath = -Wl,-rpath,'$(rpathdir)',--enable-new-dtags
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 476)
-XSLTPROC = 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 1045)
-define install_llvm_module
-$(MKDIR_P) '$(DESTDIR)${bitcodedir}/$(1)'
-$(MKDIR_P) $(sort $(dir $(addprefix '$(DESTDIR)${bitcodedir}'/$(1)/, $(2))))
-$(foreach obj, ${2}, $(INSTALL_DATA) $(patsubst %.o,%.bc, $(obj)) '$(DESTDIR)${bitcodedir}'/$(1)/$(dir $(obj))
-)
-cd '$(DESTDIR)${bitcodedir}' && $(LLVM_BINPATH)/llvm-lto -thinlto -thinlto-action=thinlink -o $(1).index.bc $(addprefix $(1)/,$(patsubst %.o,%.bc, $(2)))
-
-endef
 # environment
 LANG = C
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 78)
-configure_args = '--prefix=/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11'
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 505)
-host_tuple = x86_64-pc-linux-gnu
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 157)
-datadir := /home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/share/postgresql
 # environment
-VSCODE_PID = 85517
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 527)
-rpathdir = $(libdir)
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 233)
-BITCODE_CFLAGS = -O2 
-# makefile (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 195)
-with_llvm = no
+VSCODE_PID = 17296
 # variable set hash-table stats:
-# Load=309/1024=30%, Rehash=0, Collisions=116/543=21%
+# Load=97/1024=9%, Rehash=0, Collisions=12/119=10%
 
 # Pattern-specific Variable Values
 
@@ -664,356 +215,64 @@ with_llvm = no
 
 # Directories
 
-# . (device 58, inode 1610808): 33 files, no impossibilities.
+# . (device 58, inode 1610808): 24 files, no impossibilities.
 
-# 33 files, no impossibilities in 1 directories.
+# 24 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
-%.so: %.o
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port', line 15):
-	$(CC) $(CFLAGS) $(LDFLAGS) $(LDFLAGS_SL) -shared -o $@ $<
-
-%.c: %.l
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 731):
-	@$(missing) flex $< '$@'
-
-%.c: %.y
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 735):
-	$(if $(BISON_CHECK_CMD),$(BISON_CHECK_CMD))
-	@$(missing) bison $< $@
-
-%.i: %.c
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 743):
-	$(CPP) $(CPPFLAGS) -o $@ $<
-
-%.gz: %
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 746):
-	$(GZIP) --best -c $< >$@
-
-%.bz2: %
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 749):
-	$(BZIP2) -c $< >$@
-
-%: %.c
-
-%.bc: %.c
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 1030):
-	$(COMPILE.c.bc) -o $@ $<
-
-%.bc: %.cpp
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 1033):
-	$(COMPILE.cxx.bc) -o $@ $<
-
-%.sql: %.sql.in
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 425):
-	sed 's,MODULE_PATHNAME,$$libdir/$*,g' $< >$@
-
-# 10 implicit rules, 0 (0.0%) terminal.
+# No implicit rules.
 
 # Files
 
-maintainer-clean: clean
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-
-checkprep:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 402):
-	$(if $(EXTRA_INSTALL),for extra in $(EXTRA_INSTALL); do $(MAKE) -C '$(top_builddir)'/$$extra DESTDIR='$(abs_top_builddir)'/tmp_install install || exit; done)
-
-all: submake-generated-headers hello_world.so
-#  Phony target (prerequisite of .PHONY).
-#  Command line target.
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has been updated.
-#  Successfully updated.
-
-.PHONY: all install installdirs uninstall distprep clean distclean maintainer-clean coverage check checkprep installcheck init-po update-po install-strip html man installcheck-parallel maintainer-check submake-generated-headers temp-install show_dl_suffix submake-libpq submake-libpgport submake-libpgfeutils
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  Modification time never checked.
-#  File has not been updated.
-
 # Not a target:
-/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk:
+all:
+#  Command line target.
 #  Implicit rule search has been done.
-#  Last modified 2022-08-04 11:54:30.407181737
-#  File has been updated.
-#  Successfully updated.
-
-.SECONDARY:
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  Modification time never checked.
-#  File has not been updated.
-
-distclean: clean
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
 #  File does not exist.
 #  File has not been updated.
-
-temp-install: | submake-generated-headers
- 
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-
-maintainer-check:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-
-uninstall:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 307):
-	rm -f $(addprefix '$(DESTDIR)$(pkglibdir)'/, $(addsuffix $(DLSUFFIX), $(MODULES)))
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-02 14:26:19.132923076
-#  File has been updated.
-#  Successfully updated.
-
-man:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-
-update-po:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-
-# Not a target:
-hello_world.o:
-#  Implicit rule search has been done.
-#  Last modified 2022-08-02 16:54:20.832039671
-#  File has been updated.
-#  Successfully updated.
-
-submake-libpq: | submake-generated-headers
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 580):
-	$(MAKE) -C $(libpq_builddir) all
-
-# Not a target:
-/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.custom:
-#  Implicit rule search has been done.
-#  File is an intermediate prerequisite.
 #  File does not exist.
 #  File has been updated.
 #  Failed to be updated.
 
-show_dl_suffix:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 536):
-	@echo $(DLSUFFIX)
-
-submake-libpgport: | submake-generated-headers
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 583):
-	$(MAKE) -C $(top_builddir)/src/port all
-	$(MAKE) -C $(top_builddir)/src/common all
-
 # Not a target:
-/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port:
+makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-04 11:54:30.427181524
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
 #  Modification time never checked.
-#  File has not been updated.
-
-installcheck: submake-generated-headers
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
 #  File has not been updated.
 
 # Not a target:
-/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global:
+GNUmakefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-04 11:54:30.427181524
-#  File has been updated.
-#  Successfully updated.
-
-submake-libpgfeutils: | submake-generated-headers
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
- 
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 587):
-	$(MAKE) -C $(top_builddir)/src/port all
-	$(MAKE) -C $(top_builddir)/src/common all
-	$(MAKE) -C $(top_builddir)/src/fe_utils all
-
-clean:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 339):
-	rm -f $(addsuffix $(DLSUFFIX), $(MODULES)) $(addsuffix .o, $(MODULES)) $(if $(PGFILEDESC),$(WIN32RES)) \
-	    $(addsuffix .bc, $(MODULES))
-
-coverage:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-
-install-strip:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.global', line 805):
-	$(MAKE) use_install_sh=yes \
-	    INSTALL_PROGRAM_ENV="STRIPPROG='$(STRIP)'" \
-	    INSTALL_STLIB_ENV="STRIPPROG='$(STRIP_STATIC_LIB)'" \
-	    INSTALL_SHLIB_ENV="STRIPPROG='$(STRIP_SHARED_LIB)'" \
-	    INSTALL_STRIP_FLAG=-s \
-	    install
-
-hello_world.so: hello_world.o
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'hello_world'
-#  Last modified 2022-08-02 16:54:20.844038643
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/../../src/Makefile.port', line 15):
-	$(CC) $(CFLAGS) $(LDFLAGS) $(LDFLAGS_SL) -shared -o $@ $<
-
-html:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-
-init-po:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-
-installcheck-parallel:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-
-.DELETE_ON_ERROR:
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  Modification time never checked.
-#  File has not been updated.
-
-check: submake-generated-headers temp-install
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-
-distprep:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
- 
-
-submake-generated-headers:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
 #  File does not exist.
 #  File has been updated.
-#  Successfully updated.
-
-installdirs:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 280):
-	$(MKDIR_P) '$(DESTDIR)$(pkglibdir)'
-
-install: all installdirs submake-generated-headers
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from '/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/pg11/lib/postgresql/pgxs/src/makefiles/pgxs.mk', line 238):
-	$(INSTALL_SHLIB) $(addsuffix $(DLSUFFIX), $(MODULES)) '$(DESTDIR)$(pkglibdir)/'
+#  Failed to be updated.
 
 # files hash-table stats:
-# Load=37/1024=4%, Rehash=0, Collisions=3/111=3%
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 83 / storage = 1387 B / avg = 16 B
-# current buf: size = 8162 B / used = 1387 B / count = 83 / avg = 16 B
+# strcache buffers: 1 (0) / strings = 32 / storage = 419 B / avg = 13 B
+# current buf: size = 8162 B / used = 419 B / count = 32 / avg = 13 B
 
-# strcache performance: lookups = 164 / hit rate = 49%
+# strcache performance: lookups = 35 / hit rate = 8%
 # hash-table stats:
-# Load=83/8192=1%, Rehash=0, Collisions=1/164=1%
-# Finished Make data base on Thu Aug  4 19:17:59 2022
+# Load=32/8192=0%, Rehash=0, Collisions=1/35=3%
+# Finished Make data base on Mon Aug  8 18:51:20 2022
 
  

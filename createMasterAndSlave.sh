@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# while IFS='=' read key value;do
-#     if [[ $key != *"#"* ]];then
-#         value=$(eval echo $value)
-#         eval ${key}=\${value}
-#     fi
-# done < default.conf
 
 chmod +x default.conf
 . ./default.conf
@@ -50,22 +44,22 @@ if [[ ! -d "$pg_path/pg11" ]];then
     cd $pg_path
     tar -xf postgresql-11.4.tar.gz
     cd postgresql-11.4
-    ./configure --prefix="$pg_path/pg11" --without-readline --without-zlib
+    ./configure --prefix="$pg_path/pg11" 
     make
     make install
 fi
 
-if [[ -d $master_data_path/pgdata ]];then
-    rm -r $master_data_path/pgdata
+if [[ -d $master_data_path/master ]];then
+    rm -r $master_data_path/master
 fi
 
-mkdir -p $master_data_path/pgdata
+mkdir -p $master_data_path/master
 
-if [[ -d $slave_data_path/pgdata ]];then
-    rm -r $slave_data_path/pgdata
+if [[ -d $slave_data_path/slave ]];then
+    rm -r $slave_data_path/slave
 fi
 
-mkdir -p $slave_data_path/pgdata
+mkdir -p $slave_data_path/slave
 # sudo chown -R $USER $master_data_path
 # sudo chown -R $USER $slave_data_path
 
@@ -74,11 +68,11 @@ PG_CTL=$pg_path/pg11/bin/pg_ctl
 PSQL=$pg_path/pg11/bin/psql
 PG_BASEBACKUP=$pg_path/pg11/bin/pg_basebackup
 
-$INITDB -D "$master_data_path/pgdata"
+$INITDB -D "$master_data_path/master"
 
-master_postgresql_conf_file=$master_data_path/pgdata/postgresql.conf
-master_pg_hba_conf_file=$master_data_path/pgdata/pg_hba.conf
-slave_postgresql_conf_file=$slave_data_path/pgdata/postgresql.conf
+master_postgresql_conf_file=$master_data_path/master/postgresql.conf
+master_pg_hba_conf_file=$master_data_path/master/pg_hba.conf
+slave_postgresql_conf_file=$slave_data_path/slave/postgresql.conf
 
 
 while IFS='=' read key value;do
@@ -86,29 +80,29 @@ while IFS='=' read key value;do
     echo "$key = $value" >> $master_postgresql_conf_file
 done < $master_conf_file
 
-$PG_CTL -D $master_data_path/pgdata start
+$PG_CTL -D $master_data_path/master start
 $PSQL postgres -c "CREATE ROLE replication WITH REPLICATION LOGIN;"
-$PG_CTL -D $master_data_path/pgdata stop
+$PG_CTL -D $master_data_path/master stop
 
 mkdir -p $pg_path/pg11/archive
 # sudo chown $USER $pg_path/pg11/archive
-$PG_CTL -D $master_data_path/pgdata start
-rm -rf $slave_data_path/pgdata/*
+$PG_CTL -D $master_data_path/master start
+rm -rf $slave_data_path/slave/*
 
-$PG_BASEBACKUP -h localhost -D $slave_data_path/pgdata -P -U replication
+$PG_BASEBACKUP -h localhost -D $slave_data_path/slave -P -U replication
 
 while IFS='=' read key value;do
     sed -i /"$key = "/d  $slave_postgresql_conf_file 
     echo "$key = $value" >> $slave_postgresql_conf_file
 done < $slave_conf_file
 
-touch $slave_data_path/pgdata/recovery.conf
+touch $slave_data_path/slave/recovery.conf
 chown -R $USER $slave_data_path
-chmod 700 -R $slave_data_path/pgdata
+chmod 700 -R $slave_data_path/slave
 
 while IFS='=' read key value;do
-    sed -i /"$key = "/d  $slave_data_path/pgdata/recovery.conf
-    echo "$key = $value" >> $slave_data_path/pgdata/recovery.conf
+    sed -i /"$key = "/d  $slave_data_path/slave/recovery.conf
+    echo "$key = $value" >> $slave_data_path/slave/recovery.conf
 done < $recovery_conf_file
 
-$PG_CTL -D $slave_data_path/pgdata -o "-p $slave_port" start
+$PG_CTL -D $slave_data_path/slave -o "-p $slave_port" start

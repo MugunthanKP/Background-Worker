@@ -1,0 +1,4 @@
+# bg_topper extension
+comment = 'insert datas into the table using background'
+default_version = '0.0.1'
+relocatable = true

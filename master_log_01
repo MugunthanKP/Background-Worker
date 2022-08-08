@@ -1,0 +1,864 @@
+2022-08-08 13:50:12.893 IST [669495] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 13:50:12.893 IST [669495] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 13:50:12.898 IST [669495] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 13:50:12.915 IST [669496] LOG:  database system was shut down at 2022-08-08 13:11:47 IST
+2022-08-08 13:50:12.918 IST [669495] LOG:  database system is ready to accept connections
+2022-08-08 14:04:29.370 IST [669495] LOG:  received fast shutdown request
+2022-08-08 14:04:29.373 IST [669495] LOG:  aborting any active transactions
+2022-08-08 14:04:29.374 IST [669495] LOG:  background worker "logical replication launcher" (PID 669503) exited with exit code 1
+2022-08-08 14:04:29.375 IST [669497] LOG:  shutting down
+2022-08-08 14:04:29.468 IST [669495] LOG:  database system is shut down
+2022-08-08 14:42:47.387 IST [683515] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 14:42:47.387 IST [683515] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 14:42:47.390 IST [683515] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 14:42:47.408 IST [683516] LOG:  database system was shut down at 2022-08-08 14:04:29 IST
+2022-08-08 14:42:47.411 IST [683515] LOG:  database system is ready to accept connections
+2022-08-08 14:43:10.328 IST [683582] ERROR:  unrecognized parameter "module_pathname_bw_sm" in file "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/pg11/share/postgresql/extension/bwStudentsMarksToppers.control"
+2022-08-08 14:43:10.328 IST [683582] STATEMENT:   SELECT pg_catalog.quote_ident(name)    FROM pg_catalog.pg_available_extensions   WHERE substring(pg_catalog.quote_ident(name),1,1)='p' AND installed_version IS NULL
+	LIMIT 1000
+2022-08-08 14:43:12.503 IST [683582] ERROR:  unrecognized parameter "module_pathname_bw_sm" in file "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/pg11/share/postgresql/extension/bwStudentsMarksToppers.control"
+2022-08-08 14:43:12.503 IST [683582] STATEMENT:   SELECT pg_catalog.quote_ident(name)    FROM pg_catalog.pg_available_extensions   WHERE substring(pg_catalog.quote_ident(name),1,2)='pg' AND installed_version IS NULL
+	LIMIT 1000
+2022-08-08 14:43:33.466 IST [683582] ERROR:  could not open extension control file "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/pg11/share/postgresql/extension/bwstudentsmarkstoppers.control": No such file or directory
+2022-08-08 14:43:33.466 IST [683582] STATEMENT:  create extension bwStudentsMarksToppers;
+2022-08-08 14:46:53.921 IST [683515] LOG:  received fast shutdown request
+2022-08-08 14:46:53.924 IST [683515] LOG:  aborting any active transactions
+2022-08-08 14:46:53.924 IST [683515] LOG:  background worker "logical replication launcher" (PID 683523) exited with exit code 1
+2022-08-08 14:46:53.924 IST [683517] LOG:  shutting down
+2022-08-08 14:46:53.984 IST [683515] LOG:  database system is shut down
+2022-08-08 14:47:12.875 IST [684135] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 14:47:12.875 IST [684135] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 14:47:12.880 IST [684135] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 14:47:12.900 IST [684136] LOG:  database system was shut down at 2022-08-08 14:46:53 IST
+2022-08-08 14:47:12.903 IST [684135] LOG:  database system is ready to accept connections
+2022-08-08 14:47:24.742 IST [684198] ERROR:  could not open extension control file "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/pg11/share/postgresql/extension/bwstudentsmarkstoppers.control": No such file or directory
+2022-08-08 14:47:24.742 IST [684198] STATEMENT:  create extension bwStudentsMarksToppers;
+2022-08-08 14:47:47.954 IST [684135] LOG:  received fast shutdown request
+2022-08-08 14:47:47.957 IST [684135] LOG:  aborting any active transactions
+2022-08-08 14:47:47.958 IST [684135] LOG:  background worker "logical replication launcher" (PID 684143) exited with exit code 1
+2022-08-08 14:47:47.958 IST [684137] LOG:  shutting down
+2022-08-08 14:47:48.023 IST [684135] LOG:  database system is shut down
+2022-08-08 14:49:52.683 IST [684605] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 14:49:52.683 IST [684605] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 14:49:52.688 IST [684605] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 14:49:52.701 IST [684606] LOG:  database system was shut down at 2022-08-08 14:47:48 IST
+2022-08-08 14:49:52.705 IST [684605] LOG:  database system is ready to accept connections
+2022-08-08 14:50:02.708 IST [684701] ERROR:  unrecognized parameter "module_pathname_bw_sm" in file "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/pg11/share/postgresql/extension/bwstudentsmarkstoppers.control"
+2022-08-08 14:50:02.708 IST [684701] STATEMENT:  create extension bwStudentsMarksToppers;
+2022-08-08 14:53:52.419 IST [684605] LOG:  received fast shutdown request
+2022-08-08 14:53:52.422 IST [684605] LOG:  aborting any active transactions
+2022-08-08 14:53:52.422 IST [684701] FATAL:  terminating connection due to administrator command
+2022-08-08 14:53:52.423 IST [684605] LOG:  background worker "logical replication launcher" (PID 684613) exited with exit code 1
+2022-08-08 14:53:52.424 IST [684607] LOG:  shutting down
+2022-08-08 14:53:52.488 IST [684605] LOG:  database system is shut down
+2022-08-08 14:54:05.576 IST [685198] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 14:54:05.576 IST [685198] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 14:54:05.580 IST [685198] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 14:54:05.599 IST [685199] LOG:  database system was shut down at 2022-08-08 14:53:52 IST
+2022-08-08 14:54:05.602 IST [685198] LOG:  database system is ready to accept connections
+2022-08-08 14:54:17.860 IST [685301] ERROR:  could not access file "$libdir/bw_toppers_BW_T": No such file or directory
+2022-08-08 14:54:17.860 IST [685301] STATEMENT:  create extension bwStudentsMarksToppers;
+2022-08-08 14:56:34.134 IST [685198] LOG:  received fast shutdown request
+2022-08-08 14:56:34.138 IST [685198] LOG:  aborting any active transactions
+2022-08-08 14:56:34.139 IST [685198] LOG:  background worker "logical replication launcher" (PID 685206) exited with exit code 1
+2022-08-08 14:56:34.139 IST [685200] LOG:  shutting down
+2022-08-08 14:56:34.261 IST [685198] LOG:  database system is shut down
+2022-08-08 14:56:39.829 IST [685653] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 14:56:39.829 IST [685653] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 14:56:39.834 IST [685653] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 14:56:39.853 IST [685654] LOG:  database system was shut down at 2022-08-08 14:56:34 IST
+2022-08-08 14:56:39.857 IST [685653] LOG:  database system is ready to accept connections
+2022-08-08 14:56:49.894 IST [685711] ERROR:  could not access file "$libdir/bw_sm_BW_T": No such file or directory
+2022-08-08 14:56:49.894 IST [685711] STATEMENT:  create extension bwStudentsMarksToppers;
+2022-08-08 14:57:04.712 IST [685653] LOG:  received fast shutdown request
+2022-08-08 14:57:04.715 IST [685653] LOG:  aborting any active transactions
+2022-08-08 14:57:04.716 IST [685653] LOG:  background worker "logical replication launcher" (PID 685661) exited with exit code 1
+2022-08-08 14:57:04.716 IST [685655] LOG:  shutting down
+2022-08-08 14:57:04.835 IST [685653] LOG:  database system is shut down
+2022-08-08 14:58:02.936 IST [685916] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 14:58:02.936 IST [685916] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 14:58:02.941 IST [685916] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 14:58:02.954 IST [685917] LOG:  database system was shut down at 2022-08-08 14:57:04 IST
+2022-08-08 14:58:02.956 IST [685916] LOG:  database system is ready to accept connections
+2022-08-08 14:58:06.540 IST [685929] ERROR:  could not access file "$libdir/bwstudentsmarkstoppers_BW_T": No such file or directory
+2022-08-08 14:58:06.540 IST [685929] STATEMENT:  create extension bwStudentsMarksToppers;
+2022-08-08 14:58:26.539 IST [685916] LOG:  received fast shutdown request
+2022-08-08 14:58:26.542 IST [685916] LOG:  aborting any active transactions
+2022-08-08 14:58:26.542 IST [685929] FATAL:  terminating connection due to administrator command
+2022-08-08 14:58:26.543 IST [685916] LOG:  background worker "logical replication launcher" (PID 685924) exited with exit code 1
+2022-08-08 14:58:26.544 IST [685918] LOG:  shutting down
+2022-08-08 14:58:26.657 IST [685916] LOG:  database system is shut down
+2022-08-08 14:59:05.470 IST [686107] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 14:59:05.470 IST [686107] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 14:59:05.474 IST [686107] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 14:59:05.487 IST [686108] LOG:  database system was shut down at 2022-08-08 14:58:26 IST
+2022-08-08 14:59:05.491 IST [686107] LOG:  database system is ready to accept connections
+2022-08-08 14:59:13.232 IST [686161] ERROR:  could not find function "launch_insert_t" in file "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/pg11/lib/postgresql/bw_sm.so"
+2022-08-08 14:59:13.232 IST [686161] STATEMENT:  create extension bwStudentsMarksToppers;
+2022-08-08 15:00:02.422 IST [686107] LOG:  received fast shutdown request
+2022-08-08 15:00:02.426 IST [686107] LOG:  aborting any active transactions
+2022-08-08 15:00:02.427 IST [686107] LOG:  background worker "logical replication launcher" (PID 686115) exited with exit code 1
+2022-08-08 15:00:02.427 IST [686109] LOG:  shutting down
+2022-08-08 15:00:02.535 IST [686107] LOG:  database system is shut down
+2022-08-08 15:00:15.592 IST [686334] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 15:00:15.592 IST [686334] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 15:00:15.597 IST [686334] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 15:00:15.612 IST [686335] LOG:  database system was shut down at 2022-08-08 15:00:02 IST
+2022-08-08 15:00:15.615 IST [686334] LOG:  database system is ready to accept connections
+2022-08-08 15:00:20.047 IST [686346] ERROR:  could not access file "$libdir/bw_toppers": No such file or directory
+2022-08-08 15:00:20.047 IST [686346] STATEMENT:  create extension bwStudentsMarksToppers;
+2022-08-08 15:00:56.551 IST [686334] LOG:  received fast shutdown request
+2022-08-08 15:00:56.554 IST [686334] LOG:  aborting any active transactions
+2022-08-08 15:00:56.554 IST [686346] FATAL:  terminating connection due to administrator command
+2022-08-08 15:00:56.555 IST [686334] LOG:  background worker "logical replication launcher" (PID 686342) exited with exit code 1
+2022-08-08 15:00:56.556 IST [686336] LOG:  shutting down
+2022-08-08 15:00:56.655 IST [686334] LOG:  database system is shut down
+2022-08-08 15:01:06.370 IST [686515] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 15:01:06.370 IST [686515] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 15:01:06.375 IST [686515] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 15:01:06.390 IST [686516] LOG:  database system was shut down at 2022-08-08 15:00:56 IST
+2022-08-08 15:01:06.393 IST [686515] LOG:  database system is ready to accept connections
+2022-08-08 15:01:13.808 IST [686562] ERROR:  could not find function "launch_insert_sm" in file "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/pg11/lib/postgresql/bw_topper.so"
+2022-08-08 15:01:13.808 IST [686562] STATEMENT:  create extension bwStudentsMarksToppers;
+2022-08-08 15:01:54.643 IST [686515] LOG:  received fast shutdown request
+2022-08-08 15:01:54.646 IST [686515] LOG:  aborting any active transactions
+2022-08-08 15:01:54.646 IST [686562] FATAL:  terminating connection due to administrator command
+2022-08-08 15:01:54.646 IST [686515] LOG:  background worker "logical replication launcher" (PID 686523) exited with exit code 1
+2022-08-08 15:01:54.647 IST [686517] LOG:  shutting down
+2022-08-08 15:01:54.750 IST [686515] LOG:  database system is shut down
+2022-08-08 15:01:59.162 IST [686688] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 15:01:59.162 IST [686688] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 15:01:59.167 IST [686688] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 15:01:59.183 IST [686689] LOG:  database system was shut down at 2022-08-08 15:01:54 IST
+2022-08-08 15:01:59.186 IST [686688] LOG:  database system is ready to accept connections
+2022-08-08 15:02:02.264 IST [686697] ERROR:  syntax error in file "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/pg11/share/postgresql/extension/bwstudentsmarkstoppers.control" line 3, near token ","
+2022-08-08 15:02:02.264 IST [686697] STATEMENT:  create extension bwStudentsMarksToppers;
+2022-08-08 15:05:40.801 IST [686688] LOG:  received fast shutdown request
+2022-08-08 15:05:40.804 IST [686688] LOG:  aborting any active transactions
+2022-08-08 15:05:40.804 IST [686697] FATAL:  terminating connection due to administrator command
+2022-08-08 15:05:40.804 IST [686688] LOG:  background worker "logical replication launcher" (PID 686696) exited with exit code 1
+2022-08-08 15:05:40.805 IST [686690] LOG:  shutting down
+2022-08-08 15:05:40.869 IST [686688] LOG:  database system is shut down
+2022-08-08 15:06:09.446 IST [687208] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 15:06:09.447 IST [687208] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 15:06:09.451 IST [687208] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 15:06:09.465 IST [687209] LOG:  database system was shut down at 2022-08-08 15:05:40 IST
+2022-08-08 15:06:09.469 IST [687208] LOG:  database system is ready to accept connections
+2022-08-08 15:06:13.566 IST [687240] ERROR:  could not access file "MODULE_PATHNAME": No such file or directory
+2022-08-08 15:06:13.566 IST [687240] STATEMENT:  create extension bwStudentsMarksToppers;
+2022-08-08 15:07:10.306 IST [687208] LOG:  received fast shutdown request
+2022-08-08 15:07:10.309 IST [687208] LOG:  aborting any active transactions
+2022-08-08 15:07:10.309 IST [687240] FATAL:  terminating connection due to administrator command
+2022-08-08 15:07:10.310 IST [687208] LOG:  background worker "logical replication launcher" (PID 687216) exited with exit code 1
+2022-08-08 15:07:10.311 IST [687210] LOG:  shutting down
+2022-08-08 15:07:10.420 IST [687208] LOG:  database system is shut down
+2022-08-08 15:07:15.666 IST [687388] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 15:07:15.666 IST [687388] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 15:07:15.672 IST [687388] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 15:07:15.687 IST [687389] LOG:  database system was shut down at 2022-08-08 15:07:10 IST
+2022-08-08 15:07:15.691 IST [687388] LOG:  database system is ready to accept connections
+2022-08-08 15:07:52.342 IST [687397] LOG:  PID: 687438
+2022-08-08 15:07:52.342 IST [687397] STATEMENT:  select launch_insert_sm();
+2022-08-08 15:08:20.570 IST [687388] LOG:  received fast shutdown request
+2022-08-08 15:08:20.573 IST [687388] LOG:  aborting any active transactions
+2022-08-08 15:08:20.574 IST [687388] LOG:  background worker "logical replication launcher" (PID 687396) exited with exit code 1
+2022-08-08 15:08:20.581 IST [687390] LOG:  shutting down
+2022-08-08 15:08:20.700 IST [687388] LOG:  database system is shut down
+2022-08-08 15:31:51.159 IST [688835] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 15:31:51.159 IST [688835] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 15:31:51.163 IST [688835] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 15:31:51.176 IST [688836] LOG:  database system was shut down at 2022-08-08 15:08:20 IST
+2022-08-08 15:31:51.179 IST [688835] LOG:  database system is ready to accept connections
+2022-08-08 15:32:21.236 IST [688843] ERROR:  relation "marks" does not exist at character 13
+2022-08-08 15:32:21.236 IST [688843] QUERY:  INSERT INTO marks VALUES (1,86,85,99,81,77,CURRENT_TIMESTAMP)
+2022-08-08 15:32:21.236 IST [688843] STATEMENT:  INSERT INTO marks VALUES (1,86,85,99,81,77,CURRENT_TIMESTAMP)
+2022-08-08 15:32:21.237 IST [688835] LOG:  background worker "bw_sm " (PID 688843) exited with exit code 1
+2022-08-08 15:32:53.031 IST [688866] ERROR:  table "students" does not exist
+2022-08-08 15:32:53.031 IST [688866] STATEMENT:  drop table students;
+2022-08-08 15:32:53.031 IST [688866] ERROR:  table "marks" does not exist
+2022-08-08 15:32:53.031 IST [688866] STATEMENT:  drop table marks;
+2022-08-08 15:32:53.032 IST [688866] ERROR:  table "toppers" does not exist
+2022-08-08 15:32:53.032 IST [688866] STATEMENT:  drop table toppers;
+2022-08-08 15:35:56.161 IST [688835] LOG:  received fast shutdown request
+2022-08-08 15:35:56.165 IST [688835] LOG:  aborting any active transactions
+2022-08-08 15:35:56.165 IST [688866] FATAL:  terminating connection due to administrator command
+2022-08-08 15:35:56.165 IST [688835] LOG:  background worker "logical replication launcher" (PID 688844) exited with exit code 1
+2022-08-08 15:35:56.166 IST [688837] LOG:  shutting down
+2022-08-08 15:35:56.276 IST [688835] LOG:  database system is shut down
+2022-08-08 15:38:17.974 IST [689453] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 15:38:17.974 IST [689453] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 15:38:17.978 IST [689453] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 15:38:17.994 IST [689454] LOG:  database system was shut down at 2022-08-08 15:35:56 IST
+2022-08-08 15:38:17.997 IST [689453] LOG:  database system is ready to accept connections
+2022-08-08 15:38:18.000 IST [689461] ERROR:  relation "students" does not exist at character 13
+2022-08-08 15:38:18.000 IST [689461] QUERY:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 15:38:18.000 IST [689461] STATEMENT:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 15:38:18.001 IST [689453] LOG:  background worker "bw_sm " (PID 689461) exited with exit code 1
+2022-08-08 15:38:28.729 IST [689485] ERROR:  extension "bwstudentsmarkstoppers" does not exist
+2022-08-08 15:38:28.729 IST [689485] STATEMENT:  drop extension bwstudentsmarkstoppers ;
+2022-08-08 15:39:08.700 IST [689453] LOG:  received fast shutdown request
+2022-08-08 15:39:08.703 IST [689453] LOG:  aborting any active transactions
+2022-08-08 15:39:08.704 IST [689453] LOG:  background worker "logical replication launcher" (PID 689462) exited with exit code 1
+2022-08-08 15:39:08.704 IST [689455] LOG:  shutting down
+2022-08-08 15:39:08.818 IST [689453] LOG:  database system is shut down
+2022-08-08 15:46:44.557 IST [690069] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 15:46:44.557 IST [690069] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 15:46:44.561 IST [690069] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 15:46:44.575 IST [690070] LOG:  database system was shut down at 2022-08-08 15:39:08 IST
+2022-08-08 15:46:44.577 IST [690069] LOG:  database system is ready to accept connections
+2022-08-08 15:47:41.275 IST [690130] ERROR:  relation "marks" does not exist at character 22
+2022-08-08 15:47:41.275 IST [690130] STATEMENT:  select count(*) from marks
+	;
+2022-08-08 15:47:44.686 IST [690077] ERROR:  relation "marks" does not exist at character 13
+2022-08-08 15:47:44.686 IST [690077] QUERY:  INSERT INTO marks VALUES (1,97,98,61,81,81,CURRENT_TIMESTAMP)
+2022-08-08 15:47:44.686 IST [690077] STATEMENT:  INSERT INTO marks VALUES (1,97,98,61,81,81,CURRENT_TIMESTAMP)
+2022-08-08 15:47:44.687 IST [690069] LOG:  background worker "bw_sm " (PID 690077) exited with exit code 1
+2022-08-08 15:48:25.500 IST [690069] LOG:  received fast shutdown request
+2022-08-08 15:48:25.502 IST [690069] LOG:  aborting any active transactions
+2022-08-08 15:48:25.503 IST [690130] FATAL:  terminating connection due to administrator command
+2022-08-08 15:48:25.504 IST [690069] LOG:  background worker "logical replication launcher" (PID 690078) exited with exit code 1
+2022-08-08 15:48:25.504 IST [690071] LOG:  shutting down
+2022-08-08 15:48:25.604 IST [690069] LOG:  database system is shut down
+2022-08-08 15:50:31.547 IST [690224] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 15:50:31.547 IST [690224] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 15:50:31.550 IST [690224] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 15:50:31.565 IST [690225] LOG:  database system was shut down at 2022-08-08 15:48:25 IST
+2022-08-08 15:50:31.568 IST [690224] LOG:  database system is ready to accept connections
+2022-08-08 15:50:45.145 IST [690224] LOG:  received fast shutdown request
+2022-08-08 15:50:45.148 IST [690224] LOG:  aborting any active transactions
+2022-08-08 15:50:45.148 IST [690238] FATAL:  terminating connection due to administrator command
+2022-08-08 15:50:45.149 IST [690224] LOG:  background worker "logical replication launcher" (PID 690233) exited with exit code 1
+2022-08-08 15:50:45.156 IST [690226] LOG:  shutting down
+2022-08-08 15:50:45.238 IST [690224] LOG:  database system is shut down
+2022-08-08 15:58:27.727 IST [690666] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 15:58:27.727 IST [690666] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 15:58:27.730 IST [690666] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 15:58:27.743 IST [690667] LOG:  database system was shut down at 2022-08-08 15:50:45 IST
+2022-08-08 15:58:27.746 IST [690666] LOG:  database system is ready to accept connections
+2022-08-08 15:58:47.789 IST [690674] ERROR:  relation "marks" does not exist at character 13
+2022-08-08 15:58:47.789 IST [690674] QUERY:  INSERT INTO marks VALUES (1,94,73,65,82,81,CURRENT_TIMESTAMP)
+2022-08-08 15:58:47.789 IST [690674] STATEMENT:  INSERT INTO marks VALUES (1,94,73,65,82,81,CURRENT_TIMESTAMP)
+2022-08-08 15:58:47.790 IST [690666] LOG:  background worker "bw_sm " (PID 690674) exited with exit code 1
+2022-08-08 15:59:57.685 IST [690666] LOG:  received fast shutdown request
+2022-08-08 15:59:57.688 IST [690666] LOG:  aborting any active transactions
+2022-08-08 15:59:57.689 IST [690666] LOG:  background worker "logical replication launcher" (PID 690675) exited with exit code 1
+2022-08-08 15:59:57.689 IST [690668] LOG:  shutting down
+2022-08-08 15:59:57.783 IST [690666] LOG:  database system is shut down
+2022-08-08 15:59:59.753 IST [690751] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 15:59:59.753 IST [690751] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 15:59:59.755 IST [690751] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 15:59:59.765 IST [690752] LOG:  database system was shut down at 2022-08-08 15:59:57 IST
+2022-08-08 15:59:59.767 IST [690751] LOG:  database system is ready to accept connections
+2022-08-08 15:59:59.769 IST [690759] ERROR:  relation "students" does not exist at character 13
+2022-08-08 15:59:59.769 IST [690759] QUERY:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 15:59:59.769 IST [690759] STATEMENT:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 15:59:59.769 IST [690751] LOG:  background worker "bw_sm " (PID 690759) exited with exit code 1
+2022-08-08 16:01:01.374 IST [690751] LOG:  received fast shutdown request
+2022-08-08 16:01:01.377 IST [690751] LOG:  aborting any active transactions
+2022-08-08 16:01:01.377 IST [690781] FATAL:  terminating connection due to administrator command
+2022-08-08 16:01:01.378 IST [690751] LOG:  background worker "logical replication launcher" (PID 690760) exited with exit code 1
+2022-08-08 16:01:01.379 IST [690753] LOG:  shutting down
+2022-08-08 16:01:01.476 IST [690751] LOG:  database system is shut down
+2022-08-08 16:08:17.038 IST [951419] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:08:17.038 IST [951419] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:08:17.042 IST [951419] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:08:17.052 IST [951427] LOG:  database system was shut down at 2022-08-08 16:01:01 IST
+2022-08-08 16:08:17.056 IST [951419] LOG:  database system is ready to accept connections
+2022-08-08 16:08:28.837 IST [951419] LOG:  received fast shutdown request
+2022-08-08 16:08:28.841 IST [951419] LOG:  aborting any active transactions
+2022-08-08 16:08:28.841 IST [953642] FATAL:  terminating connection due to administrator command
+2022-08-08 16:08:28.841 IST [951419] LOG:  background worker "logical replication launcher" (PID 951435) exited with exit code 1
+2022-08-08 16:08:28.845 IST [951428] LOG:  shutting down
+2022-08-08 16:08:28.920 IST [951419] LOG:  database system is shut down
+2022-08-08 16:08:32.084 IST [957817] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:08:32.084 IST [957817] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:08:32.089 IST [957817] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:08:32.100 IST [957824] LOG:  database system was shut down at 2022-08-08 16:08:28 IST
+2022-08-08 16:08:32.103 IST [957817] LOG:  database system is ready to accept connections
+2022-08-08 16:08:42.130 IST [957831] ERROR:  relation "marks" does not exist at character 13
+2022-08-08 16:08:42.130 IST [957831] QUERY:  INSERT INTO marks VALUES (1,88,100,91,73,99,CURRENT_TIMESTAMP)
+2022-08-08 16:08:42.130 IST [957831] STATEMENT:  INSERT INTO marks VALUES (1,88,100,91,73,99,CURRENT_TIMESTAMP)
+2022-08-08 16:08:42.131 IST [957817] LOG:  background worker "bw_sm " (PID 957831) exited with exit code 1
+2022-08-08 16:09:36.450 IST [959434] ERROR:  could not open extension control file "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/pg11/share/postgresql/extension/config_log.control": No such file or directory
+2022-08-08 16:09:36.450 IST [959434] STATEMENT:  CREATE EXTENSION config_log;
+2022-08-08 16:10:03.838 IST [957817] LOG:  received fast shutdown request
+2022-08-08 16:10:03.847 IST [957817] LOG:  aborting any active transactions
+2022-08-08 16:10:03.847 IST [959434] FATAL:  terminating connection due to administrator command
+2022-08-08 16:10:03.847 IST [957817] LOG:  background worker "logical replication launcher" (PID 957832) exited with exit code 1
+2022-08-08 16:10:03.848 IST [957825] LOG:  shutting down
+2022-08-08 16:10:03.933 IST [957817] LOG:  database system is shut down
+2022-08-08 16:10:24.348 IST [1001762] FATAL:  could not access file "config_log": No such file or directory
+2022-08-08 16:10:24.348 IST [1001762] LOG:  database system is shut down
+2022-08-08 16:10:34.895 IST [1001793] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:10:34.895 IST [1001793] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:10:34.898 IST [1001793] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:10:34.915 IST [1001794] LOG:  database system was shut down at 2022-08-08 16:10:03 IST
+2022-08-08 16:10:34.918 IST [1001793] LOG:  database system is ready to accept connections
+2022-08-08 16:10:34.923 IST [1001801] ERROR:  relation "students" does not exist at character 13
+2022-08-08 16:10:34.923 IST [1001801] QUERY:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 16:10:34.923 IST [1001801] STATEMENT:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 16:10:34.924 IST [1001793] LOG:  background worker "bw_sm " (PID 1001801) exited with exit code 1
+2022-08-08 16:10:36.386 IST [1001806] FATAL:  lock file "postmaster.pid" already exists
+2022-08-08 16:10:36.386 IST [1001806] HINT:  Is another postmaster (PID 1001793) running in data directory "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/BGWorker_04/master"?
+2022-08-08 16:10:37.825 IST [1001793] LOG:  received fast shutdown request
+2022-08-08 16:10:37.829 IST [1001793] LOG:  aborting any active transactions
+2022-08-08 16:10:37.830 IST [1001793] LOG:  background worker "logical replication launcher" (PID 1001802) exited with exit code 1
+2022-08-08 16:10:37.830 IST [1001795] LOG:  shutting down
+2022-08-08 16:10:37.897 IST [1001793] LOG:  database system is shut down
+2022-08-08 16:13:20.014 IST [1002552] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:13:20.014 IST [1002552] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:13:20.018 IST [1002552] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:13:20.034 IST [1002553] LOG:  database system was shut down at 2022-08-08 16:10:37 IST
+2022-08-08 16:13:20.037 IST [1002552] LOG:  database system is ready to accept connections
+2022-08-08 16:13:20.042 IST [1002560] ERROR:  relation "students" does not exist at character 13
+2022-08-08 16:13:20.042 IST [1002560] QUERY:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 16:13:20.042 IST [1002560] STATEMENT:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 16:13:20.043 IST [1002552] LOG:  background worker "bw_sm " (PID 1002560) exited with exit code 1
+2022-08-08 16:15:57.114 IST [1002552] LOG:  received fast shutdown request
+2022-08-08 16:15:57.117 IST [1002552] LOG:  aborting any active transactions
+2022-08-08 16:15:57.117 IST [1002562] FATAL:  terminating connection due to administrator command
+2022-08-08 16:15:57.118 IST [1002552] LOG:  background worker "logical replication launcher" (PID 1002561) exited with exit code 1
+2022-08-08 16:15:57.119 IST [1002554] LOG:  shutting down
+2022-08-08 16:15:57.259 IST [1002552] LOG:  database system is shut down
+2022-08-08 16:15:59.320 IST [1003081] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:15:59.320 IST [1003081] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:15:59.324 IST [1003081] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:15:59.339 IST [1003082] LOG:  database system was shut down at 2022-08-08 16:15:57 IST
+2022-08-08 16:15:59.344 IST [1003081] LOG:  database system is ready to accept connections
+2022-08-08 16:15:59.350 IST [1003090] ERROR:  relation "students" does not exist at character 13
+2022-08-08 16:15:59.350 IST [1003090] QUERY:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 16:15:59.350 IST [1003090] STATEMENT:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 16:15:59.351 IST [1003081] LOG:  background worker "bw_sm " (PID 1003090) exited with exit code 1
+2022-08-08 16:15:59.352 IST [1003089] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 16:15:59.355 IST [1003089] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 16:15:59.355 IST [1003089] LOG:  config_log worker: configuration changes recorded
+2022-08-08 16:16:25.079 IST [1003081] LOG:  received fast shutdown request
+2022-08-08 16:16:25.082 IST [1003081] LOG:  aborting any active transactions
+2022-08-08 16:16:25.083 IST [1003111] FATAL:  terminating connection due to administrator command
+2022-08-08 16:16:25.083 IST [1003081] LOG:  background worker "logical replication launcher" (PID 1003091) exited with exit code 1
+2022-08-08 16:16:25.084 IST [1003083] LOG:  shutting down
+2022-08-08 16:16:25.168 IST [1003081] LOG:  database system is shut down
+2022-08-08 16:16:33.607 IST [1003161] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:16:33.607 IST [1003161] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:16:33.611 IST [1003161] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:16:33.630 IST [1003162] LOG:  database system was shut down at 2022-08-08 16:16:25 IST
+2022-08-08 16:16:33.632 IST [1003161] LOG:  database system is ready to accept connections
+2022-08-08 16:16:33.636 IST [1003170] ERROR:  relation "students" does not exist at character 13
+2022-08-08 16:16:33.636 IST [1003170] QUERY:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 16:16:33.636 IST [1003170] STATEMENT:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 16:16:33.636 IST [1003161] LOG:  background worker "bw_sm " (PID 1003170) exited with exit code 1
+2022-08-08 16:16:33.638 IST [1003169] FATAL:  expected config log table 'public.pg_settings_log' not found
+2022-08-08 16:16:33.638 IST [1003169] HINT:  ensure superuser search_path includes the schema used by config_log; check config_log.* GUC settings
+2022-08-08 16:16:33.638 IST [1003161] LOG:  background worker "config_log" (PID 1003169) exited with exit code 1
+2022-08-08 16:16:34.645 IST [1003177] FATAL:  expected config log table 'public.pg_settings_log' not found
+2022-08-08 16:16:34.645 IST [1003177] HINT:  ensure superuser search_path includes the schema used by config_log; check config_log.* GUC settings
+2022-08-08 16:16:34.645 IST [1003161] LOG:  background worker "config_log" (PID 1003177) exited with exit code 1
+2022-08-08 16:16:35.653 IST [1003178] FATAL:  expected config log table 'public.pg_settings_log' not found
+2022-08-08 16:16:35.653 IST [1003178] HINT:  ensure superuser search_path includes the schema used by config_log; check config_log.* GUC settings
+2022-08-08 16:16:35.654 IST [1003161] LOG:  background worker "config_log" (PID 1003178) exited with exit code 1
+2022-08-08 16:16:36.661 IST [1003179] FATAL:  expected config log table 'public.pg_settings_log' not found
+2022-08-08 16:16:36.661 IST [1003179] HINT:  ensure superuser search_path includes the schema used by config_log; check config_log.* GUC settings
+2022-08-08 16:16:36.661 IST [1003161] LOG:  background worker "config_log" (PID 1003179) exited with exit code 1
+2022-08-08 16:16:37.667 IST [1003197] FATAL:  expected config log table 'public.pg_settings_log' not found
+2022-08-08 16:16:37.667 IST [1003197] HINT:  ensure superuser search_path includes the schema used by config_log; check config_log.* GUC settings
+2022-08-08 16:16:37.668 IST [1003161] LOG:  background worker "config_log" (PID 1003197) exited with exit code 1
+2022-08-08 16:16:38.675 IST [1003198] FATAL:  expected config log table 'public.pg_settings_log' not found
+2022-08-08 16:16:38.675 IST [1003198] HINT:  ensure superuser search_path includes the schema used by config_log; check config_log.* GUC settings
+2022-08-08 16:16:38.676 IST [1003161] LOG:  background worker "config_log" (PID 1003198) exited with exit code 1
+2022-08-08 16:16:39.683 IST [1003201] FATAL:  expected config log table 'public.pg_settings_log' not found
+2022-08-08 16:16:39.683 IST [1003201] HINT:  ensure superuser search_path includes the schema used by config_log; check config_log.* GUC settings
+2022-08-08 16:16:39.683 IST [1003161] LOG:  background worker "config_log" (PID 1003201) exited with exit code 1
+2022-08-08 16:16:40.691 IST [1003202] FATAL:  expected config log table 'public.pg_settings_log' not found
+2022-08-08 16:16:40.691 IST [1003202] HINT:  ensure superuser search_path includes the schema used by config_log; check config_log.* GUC settings
+2022-08-08 16:16:40.691 IST [1003161] LOG:  background worker "config_log" (PID 1003202) exited with exit code 1
+2022-08-08 16:16:41.700 IST [1003203] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 16:16:41.707 IST [1003203] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 16:16:41.708 IST [1003203] LOG:  config_log worker: no configuration changes detected
+2022-08-08 16:17:12.435 IST [1003161] LOG:  received fast shutdown request
+2022-08-08 16:17:12.437 IST [1003161] LOG:  aborting any active transactions
+2022-08-08 16:17:12.438 IST [1003199] FATAL:  terminating connection due to administrator command
+2022-08-08 16:17:12.439 IST [1003161] LOG:  background worker "logical replication launcher" (PID 1003171) exited with exit code 1
+2022-08-08 16:17:12.440 IST [1003163] LOG:  shutting down
+2022-08-08 16:17:12.581 IST [1003161] LOG:  database system is shut down
+2022-08-08 16:17:25.888 IST [1003265] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:17:25.889 IST [1003265] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:17:25.893 IST [1003265] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:17:25.913 IST [1003266] LOG:  database system was shut down at 2022-08-08 16:17:12 IST
+2022-08-08 16:17:25.918 IST [1003265] LOG:  database system is ready to accept connections
+2022-08-08 16:17:25.923 IST [1003274] ERROR:  relation "students" does not exist at character 13
+2022-08-08 16:17:25.923 IST [1003274] QUERY:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 16:17:25.923 IST [1003274] STATEMENT:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 16:17:25.923 IST [1003265] LOG:  background worker "bw_sm " (PID 1003274) exited with exit code 1
+2022-08-08 16:17:25.925 IST [1003273] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 16:17:25.927 IST [1003273] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 16:17:25.927 IST [1003273] LOG:  config_log worker: no configuration changes detected
+2022-08-08 16:17:46.579 IST [1003296] ERROR:  extension "config_log" already exists
+2022-08-08 16:17:46.579 IST [1003296] STATEMENT:  CREATE EXTENSION config_log;
+2022-08-08 16:17:57.512 IST [1003265] LOG:  received fast shutdown request
+2022-08-08 16:17:57.515 IST [1003265] LOG:  aborting any active transactions
+2022-08-08 16:17:57.516 IST [1003296] FATAL:  terminating connection due to administrator command
+2022-08-08 16:17:57.517 IST [1003265] LOG:  background worker "logical replication launcher" (PID 1003275) exited with exit code 1
+2022-08-08 16:17:57.518 IST [1003267] LOG:  shutting down
+2022-08-08 16:17:57.583 IST [1003265] LOG:  database system is shut down
+2022-08-08 16:18:06.332 IST [1003327] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:18:06.332 IST [1003327] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:18:06.336 IST [1003327] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:18:06.351 IST [1003328] LOG:  database system was shut down at 2022-08-08 16:17:57 IST
+2022-08-08 16:18:06.354 IST [1003327] LOG:  database system is ready to accept connections
+2022-08-08 16:18:06.357 IST [1003336] ERROR:  relation "students" does not exist at character 13
+2022-08-08 16:18:06.357 IST [1003336] QUERY:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 16:18:06.357 IST [1003336] STATEMENT:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 16:18:06.357 IST [1003327] LOG:  background worker "bw_sm " (PID 1003336) exited with exit code 1
+2022-08-08 16:18:06.359 IST [1003335] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 16:18:06.361 IST [1003335] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 16:18:06.361 IST [1003335] LOG:  config_log worker: no configuration changes detected
+2022-08-08 16:18:34.507 IST [1003327] LOG:  received fast shutdown request
+2022-08-08 16:18:34.510 IST [1003327] LOG:  aborting any active transactions
+2022-08-08 16:18:34.511 IST [1003327] LOG:  background worker "logical replication launcher" (PID 1003337) exited with exit code 1
+2022-08-08 16:18:34.512 IST [1003329] LOG:  shutting down
+2022-08-08 16:18:34.575 IST [1003327] LOG:  database system is shut down
+2022-08-08 16:30:53.906 IST [1003666] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:30:53.906 IST [1003666] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:30:53.910 IST [1003666] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:30:53.923 IST [1003667] LOG:  database system was shut down at 2022-08-08 16:18:34 IST
+2022-08-08 16:30:53.927 IST [1003666] LOG:  database system is ready to accept connections
+2022-08-08 16:30:53.934 IST [1003675] ERROR:  relation "students" does not exist at character 13
+2022-08-08 16:30:53.934 IST [1003675] QUERY:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 16:30:53.934 IST [1003675] STATEMENT:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 16:30:53.935 IST [1003666] LOG:  background worker "bw_sm " (PID 1003675) exited with exit code 1
+2022-08-08 16:30:53.935 IST [1003674] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 16:30:53.938 IST [1003674] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 16:30:53.938 IST [1003674] LOG:  config_log worker: no configuration changes detected
+2022-08-08 16:31:04.954 IST [1003696] ERROR:  extension "bwstudentsmarkstoppers" does not exist
+2022-08-08 16:31:04.954 IST [1003696] STATEMENT:  drop extension bwstudentsmarkstoppers ;
+2022-08-08 16:31:30.377 IST [1003666] LOG:  received fast shutdown request
+2022-08-08 16:31:30.381 IST [1003666] LOG:  aborting any active transactions
+2022-08-08 16:31:30.381 IST [1003696] FATAL:  terminating connection due to administrator command
+2022-08-08 16:31:30.382 IST [1003666] LOG:  background worker "logical replication launcher" (PID 1003676) exited with exit code 1
+2022-08-08 16:31:30.383 IST [1003668] LOG:  shutting down
+2022-08-08 16:31:30.481 IST [1003666] LOG:  database system is shut down
+2022-08-08 16:31:32.264 IST [1003735] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:31:32.264 IST [1003735] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:31:32.269 IST [1003735] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:31:32.289 IST [1003736] LOG:  database system was shut down at 2022-08-08 16:31:30 IST
+2022-08-08 16:31:32.293 IST [1003735] LOG:  database system is ready to accept connections
+2022-08-08 16:31:32.300 IST [1003743] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 16:31:32.302 IST [1003743] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 16:31:32.302 IST [1003743] LOG:  config_log worker: no configuration changes detected
+2022-08-08 16:36:27.743 IST [1003735] LOG:  received fast shutdown request
+2022-08-08 16:36:27.747 IST [1003735] LOG:  aborting any active transactions
+2022-08-08 16:36:27.748 IST [1003735] LOG:  background worker "logical replication launcher" (PID 1003745) exited with exit code 1
+2022-08-08 16:36:27.755 IST [1003737] LOG:  shutting down
+2022-08-08 16:36:27.827 IST [1003735] LOG:  database system is shut down
+2022-08-08 16:39:33.238 IST [1004042] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:39:33.238 IST [1004042] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:39:33.241 IST [1004042] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:39:33.254 IST [1004043] LOG:  database system was shut down at 2022-08-08 16:36:27 IST
+2022-08-08 16:39:33.258 IST [1004042] LOG:  database system is ready to accept connections
+2022-08-08 16:39:33.263 IST [1004050] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 16:39:33.265 IST [1004050] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 16:39:33.265 IST [1004050] LOG:  config_log worker: no configuration changes detected
+2022-08-08 16:40:35.694 IST [1004042] LOG:  received fast shutdown request
+2022-08-08 16:40:35.697 IST [1004042] LOG:  aborting any active transactions
+2022-08-08 16:40:35.697 IST [1004070] FATAL:  terminating connection due to administrator command
+2022-08-08 16:40:35.698 IST [1004042] LOG:  background worker "logical replication launcher" (PID 1004052) exited with exit code 1
+2022-08-08 16:40:35.705 IST [1004044] LOG:  shutting down
+2022-08-08 16:40:35.759 IST [1004042] LOG:  database system is shut down
+2022-08-08 16:41:09.727 IST [1004219] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:41:09.727 IST [1004219] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:41:09.731 IST [1004219] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:41:09.750 IST [1004220] LOG:  database system was shut down at 2022-08-08 16:40:35 IST
+2022-08-08 16:41:09.753 IST [1004219] LOG:  database system is ready to accept connections
+2022-08-08 16:41:09.761 IST [1004227] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 16:41:09.765 IST [1004227] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 16:41:09.765 IST [1004227] LOG:  config_log worker: no configuration changes detected
+2022-08-08 16:41:21.093 IST [1004219] LOG:  received fast shutdown request
+2022-08-08 16:41:21.096 IST [1004219] LOG:  aborting any active transactions
+2022-08-08 16:41:21.096 IST [1004232] FATAL:  terminating connection due to administrator command
+2022-08-08 16:41:21.097 IST [1004219] LOG:  background worker "logical replication launcher" (PID 1004229) exited with exit code 1
+2022-08-08 16:41:21.104 IST [1004221] LOG:  shutting down
+2022-08-08 16:41:21.156 IST [1004219] LOG:  database system is shut down
+2022-08-08 16:51:08.029 IST [1005463] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:51:08.029 IST [1005463] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:51:08.033 IST [1005463] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:51:08.048 IST [1005464] LOG:  database system was shut down at 2022-08-08 16:41:21 IST
+2022-08-08 16:51:08.051 IST [1005463] LOG:  database system is ready to accept connections
+2022-08-08 16:51:08.056 IST [1005471] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 16:51:08.058 IST [1005471] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 16:51:08.058 IST [1005471] LOG:  config_log worker: no configuration changes detected
+2022-08-08 16:52:08.385 IST [1005463] LOG:  received fast shutdown request
+2022-08-08 16:52:08.389 IST [1005463] LOG:  aborting any active transactions
+2022-08-08 16:52:08.389 IST [1005493] FATAL:  terminating connection due to administrator command
+2022-08-08 16:52:08.390 IST [1005463] LOG:  background worker "logical replication launcher" (PID 1005473) exited with exit code 1
+2022-08-08 16:52:08.396 IST [1005465] LOG:  shutting down
+2022-08-08 16:52:08.451 IST [1005463] LOG:  database system is shut down
+2022-08-08 16:52:39.951 IST [1005579] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:52:39.951 IST [1005579] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:52:39.954 IST [1005579] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:52:39.973 IST [1005580] LOG:  database system was shut down at 2022-08-08 16:52:08 IST
+2022-08-08 16:52:39.976 IST [1005579] LOG:  database system is ready to accept connections
+2022-08-08 16:52:39.981 IST [1005587] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 16:52:39.983 IST [1005587] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 16:52:39.983 IST [1005587] LOG:  config_log worker: no configuration changes detected
+2022-08-08 16:53:10.030 IST [1005588] ERROR:  relation "marks" does not exist at character 13
+2022-08-08 16:53:10.030 IST [1005588] QUERY:  INSERT INTO marks VALUES (1,94,65,70,76,75,CURRENT_TIMESTAMP)
+2022-08-08 16:53:10.030 IST [1005588] STATEMENT:  INSERT INTO marks VALUES (1,94,65,70,76,75,CURRENT_TIMESTAMP)
+2022-08-08 16:53:10.032 IST [1005579] LOG:  background worker "bw_sm " (PID 1005588) exited with exit code 1
+2022-08-08 16:55:48.725 IST [1005579] LOG:  received fast shutdown request
+2022-08-08 16:55:48.728 IST [1005579] LOG:  aborting any active transactions
+2022-08-08 16:55:48.728 IST [1005612] FATAL:  terminating connection due to administrator command
+2022-08-08 16:55:48.729 IST [1005579] LOG:  background worker "logical replication launcher" (PID 1005589) exited with exit code 1
+2022-08-08 16:55:48.730 IST [1005581] LOG:  shutting down
+2022-08-08 16:55:48.806 IST [1005579] LOG:  database system is shut down
+2022-08-08 16:55:54.225 IST [1005878] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:55:54.225 IST [1005878] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:55:54.229 IST [1005878] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:55:54.242 IST [1005879] LOG:  database system was shut down at 2022-08-08 16:55:48 IST
+2022-08-08 16:55:54.245 IST [1005878] LOG:  database system is ready to accept connections
+2022-08-08 16:55:54.250 IST [1005887] LOG:  bwstudentsmarkstoppers
+2022-08-08 16:55:54.250 IST [1005887] STATEMENT:  SELECT * FROM pg_extension where extname = 'bwstudentsmarkstoppers';
+2022-08-08 16:55:54.252 IST [1005886] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 16:55:54.254 IST [1005886] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 16:55:54.254 IST [1005886] LOG:  config_log worker: no configuration changes detected
+2022-08-08 16:56:24.300 IST [1005887] ERROR:  relation "marks" does not exist at character 13
+2022-08-08 16:56:24.300 IST [1005887] QUERY:  INSERT INTO marks VALUES (1,87,79,91,75,98,CURRENT_TIMESTAMP)
+2022-08-08 16:56:24.300 IST [1005887] STATEMENT:  INSERT INTO marks VALUES (1,87,79,91,75,98,CURRENT_TIMESTAMP)
+2022-08-08 16:56:24.302 IST [1005878] LOG:  background worker "bw_sm " (PID 1005887) exited with exit code 1
+2022-08-08 16:57:19.951 IST [1005878] LOG:  received fast shutdown request
+2022-08-08 16:57:19.954 IST [1005878] LOG:  aborting any active transactions
+2022-08-08 16:57:19.954 IST [1005930] FATAL:  terminating connection due to administrator command
+2022-08-08 16:57:19.955 IST [1005878] LOG:  background worker "logical replication launcher" (PID 1005888) exited with exit code 1
+2022-08-08 16:57:19.956 IST [1005880] LOG:  shutting down
+2022-08-08 16:57:20.039 IST [1005878] LOG:  database system is shut down
+2022-08-08 16:57:43.551 IST [1006053] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:57:43.551 IST [1006053] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:57:43.556 IST [1006053] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:57:43.572 IST [1006054] LOG:  database system was shut down at 2022-08-08 16:57:20 IST
+2022-08-08 16:57:43.575 IST [1006053] LOG:  database system is ready to accept connections
+2022-08-08 16:58:05.474 IST [1006053] LOG:  received fast shutdown request
+2022-08-08 16:58:05.477 IST [1006053] LOG:  aborting any active transactions
+2022-08-08 16:58:05.477 IST [1006093] FATAL:  terminating connection due to administrator command
+2022-08-08 16:58:05.478 IST [1006053] LOG:  background worker "logical replication launcher" (PID 1006061) exited with exit code 1
+2022-08-08 16:58:05.479 IST [1006055] LOG:  shutting down
+2022-08-08 16:58:05.533 IST [1006053] LOG:  database system is shut down
+2022-08-08 16:58:26.226 IST [1006182] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:58:26.226 IST [1006182] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:58:26.229 IST [1006182] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:58:26.244 IST [1006183] LOG:  database system was shut down at 2022-08-08 16:58:05 IST
+2022-08-08 16:58:26.249 IST [1006182] LOG:  database system is ready to accept connections
+2022-08-08 16:58:26.258 IST [1006190] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 16:58:26.260 IST [1006190] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 16:58:26.260 IST [1006190] LOG:  config_log worker: no configuration changes detected
+2022-08-08 16:58:26.344 IST [1006182] LOG:  background worker "bw_sm " (PID 1006191) was terminated by signal 11: Segmentation fault
+2022-08-08 16:58:26.344 IST [1006182] DETAIL:  Failed process was running: checking extension available
+2022-08-08 16:58:26.344 IST [1006182] LOG:  terminating any other active server processes
+2022-08-08 16:58:26.344 IST [1006187] WARNING:  terminating connection because of crash of another server process
+2022-08-08 16:58:26.344 IST [1006187] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2022-08-08 16:58:26.344 IST [1006187] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2022-08-08 16:58:26.345 IST [1006182] LOG:  archiver process (PID 1006188) exited with exit code 1
+2022-08-08 16:58:26.345 IST [1006182] LOG:  all server processes terminated; reinitializing
+2022-08-08 16:58:26.353 IST [1006195] LOG:  database system was interrupted; last known up at 2022-08-08 16:58:26 IST
+2022-08-08 16:58:26.402 IST [1006195] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-08-08 16:58:26.404 IST [1006195] LOG:  invalid record length at 0/29000098: wanted 24, got 0
+2022-08-08 16:58:26.404 IST [1006195] LOG:  redo is not required
+2022-08-08 16:58:26.425 IST [1006182] LOG:  database system is ready to accept connections
+2022-08-08 16:58:26.437 IST [1006201] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 16:58:26.440 IST [1006201] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 16:58:26.440 IST [1006201] LOG:  config_log worker: no configuration changes detected
+2022-08-08 16:59:38.424 IST [1006182] LOG:  received fast shutdown request
+2022-08-08 16:59:38.427 IST [1006182] LOG:  aborting any active transactions
+2022-08-08 16:59:38.428 IST [1006182] LOG:  background worker "logical replication launcher" (PID 1006202) exited with exit code 1
+2022-08-08 16:59:38.429 IST [1006196] LOG:  shutting down
+2022-08-08 16:59:38.475 IST [1006182] LOG:  database system is shut down
+2022-08-08 16:59:41.526 IST [1006296] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 16:59:41.526 IST [1006296] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 16:59:41.532 IST [1006296] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 16:59:41.551 IST [1006297] LOG:  database system was shut down at 2022-08-08 16:59:38 IST
+2022-08-08 16:59:41.555 IST [1006296] LOG:  database system is ready to accept connections
+2022-08-08 16:59:41.561 IST [1006306] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 16:59:41.563 IST [1006306] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 16:59:41.563 IST [1006306] LOG:  config_log worker: no configuration changes detected
+2022-08-08 16:59:41.650 IST [1006296] LOG:  background worker "bw_sm " (PID 1006307) was terminated by signal 11: Segmentation fault
+2022-08-08 16:59:41.650 IST [1006296] DETAIL:  Failed process was running: checking extension available
+2022-08-08 16:59:41.650 IST [1006296] LOG:  terminating any other active server processes
+2022-08-08 16:59:41.650 IST [1006303] WARNING:  terminating connection because of crash of another server process
+2022-08-08 16:59:41.650 IST [1006303] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2022-08-08 16:59:41.650 IST [1006303] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2022-08-08 16:59:41.650 IST [1006296] LOG:  archiver process (PID 1006304) exited with exit code 1
+2022-08-08 16:59:41.651 IST [1006296] LOG:  all server processes terminated; reinitializing
+2022-08-08 16:59:41.659 IST [1006324] LOG:  database system was interrupted; last known up at 2022-08-08 16:59:41 IST
+2022-08-08 16:59:41.708 IST [1006324] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-08-08 16:59:41.710 IST [1006324] LOG:  invalid record length at 0/2A000098: wanted 24, got 0
+2022-08-08 16:59:41.710 IST [1006324] LOG:  redo is not required
+2022-08-08 16:59:41.727 IST [1006296] LOG:  database system is ready to accept connections
+2022-08-08 16:59:41.731 IST [1006330] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 16:59:41.733 IST [1006330] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 16:59:41.733 IST [1006330] LOG:  config_log worker: no configuration changes detected
+2022-08-08 17:00:49.320 IST [1006296] LOG:  received fast shutdown request
+2022-08-08 17:00:49.323 IST [1006296] LOG:  aborting any active transactions
+2022-08-08 17:00:49.324 IST [1006296] LOG:  background worker "logical replication launcher" (PID 1006331) exited with exit code 1
+2022-08-08 17:00:49.324 IST [1006325] LOG:  shutting down
+2022-08-08 17:00:49.367 IST [1006296] LOG:  database system is shut down
+2022-08-08 17:01:50.640 IST [1006609] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 17:01:50.640 IST [1006609] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 17:01:50.644 IST [1006609] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 17:01:50.661 IST [1006610] LOG:  database system was shut down at 2022-08-08 17:00:49 IST
+2022-08-08 17:01:50.665 IST [1006609] LOG:  database system is ready to accept connections
+2022-08-08 17:01:50.674 IST [1006617] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 17:01:50.677 IST [1006617] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 17:01:50.677 IST [1006617] LOG:  config_log worker: no configuration changes detected
+2022-08-08 17:01:50.753 IST [1006609] LOG:  background worker "bw_sm " (PID 1006618) was terminated by signal 11: Segmentation fault
+2022-08-08 17:01:50.753 IST [1006609] DETAIL:  Failed process was running: checking extension available
+2022-08-08 17:01:50.753 IST [1006609] LOG:  terminating any other active server processes
+2022-08-08 17:01:50.753 IST [1006614] WARNING:  terminating connection because of crash of another server process
+2022-08-08 17:01:50.753 IST [1006614] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2022-08-08 17:01:50.753 IST [1006614] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2022-08-08 17:01:50.753 IST [1006609] LOG:  archiver process (PID 1006615) exited with exit code 1
+2022-08-08 17:01:50.754 IST [1006609] LOG:  all server processes terminated; reinitializing
+2022-08-08 17:01:50.761 IST [1006623] LOG:  database system was interrupted; last known up at 2022-08-08 17:01:50 IST
+2022-08-08 17:01:50.794 IST [1006623] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-08-08 17:01:50.796 IST [1006623] LOG:  invalid record length at 0/2B000098: wanted 24, got 0
+2022-08-08 17:01:50.796 IST [1006623] LOG:  redo is not required
+2022-08-08 17:01:50.812 IST [1006609] LOG:  database system is ready to accept connections
+2022-08-08 17:01:50.816 IST [1006629] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 17:01:50.818 IST [1006629] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 17:01:50.818 IST [1006629] LOG:  config_log worker: no configuration changes detected
+2022-08-08 17:02:58.075 IST [1006609] LOG:  received fast shutdown request
+2022-08-08 17:02:58.080 IST [1006609] LOG:  aborting any active transactions
+2022-08-08 17:02:58.081 IST [1006609] LOG:  background worker "logical replication launcher" (PID 1006630) exited with exit code 1
+2022-08-08 17:02:58.082 IST [1006624] LOG:  shutting down
+2022-08-08 17:02:58.125 IST [1006609] LOG:  database system is shut down
+2022-08-08 17:04:42.289 IST [1006849] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 17:04:42.290 IST [1006849] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 17:04:42.295 IST [1006849] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 17:04:42.312 IST [1006850] LOG:  database system was shut down at 2022-08-08 17:02:58 IST
+2022-08-08 17:04:42.315 IST [1006849] LOG:  database system is ready to accept connections
+2022-08-08 17:04:42.323 IST [1006857] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 17:04:42.326 IST [1006857] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 17:04:42.326 IST [1006857] LOG:  config_log worker: no configuration changes detected
+2022-08-08 17:04:42.405 IST [1006849] LOG:  background worker "bw_sm " (PID 1006858) was terminated by signal 11: Segmentation fault
+2022-08-08 17:04:42.405 IST [1006849] DETAIL:  Failed process was running: checking extension available
+2022-08-08 17:04:42.405 IST [1006849] LOG:  terminating any other active server processes
+2022-08-08 17:04:42.405 IST [1006854] WARNING:  terminating connection because of crash of another server process
+2022-08-08 17:04:42.405 IST [1006854] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2022-08-08 17:04:42.405 IST [1006854] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2022-08-08 17:04:42.405 IST [1006849] LOG:  archiver process (PID 1006855) exited with exit code 1
+2022-08-08 17:04:42.406 IST [1006849] LOG:  all server processes terminated; reinitializing
+2022-08-08 17:04:42.414 IST [1006864] LOG:  database system was interrupted; last known up at 2022-08-08 17:04:42 IST
+2022-08-08 17:04:42.447 IST [1006864] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-08-08 17:04:42.450 IST [1006864] LOG:  invalid record length at 0/2C000098: wanted 24, got 0
+2022-08-08 17:04:42.450 IST [1006864] LOG:  redo is not required
+2022-08-08 17:04:42.465 IST [1006849] LOG:  database system is ready to accept connections
+2022-08-08 17:04:42.469 IST [1006870] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 17:04:42.471 IST [1006870] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 17:04:42.471 IST [1006870] LOG:  config_log worker: no configuration changes detected
+2022-08-08 17:05:15.557 IST [1006849] LOG:  received fast shutdown request
+2022-08-08 17:05:15.560 IST [1006849] LOG:  aborting any active transactions
+2022-08-08 17:05:15.561 IST [1006849] LOG:  background worker "logical replication launcher" (PID 1006871) exited with exit code 1
+2022-08-08 17:05:15.562 IST [1006865] LOG:  shutting down
+2022-08-08 17:05:15.601 IST [1006849] LOG:  database system is shut down
+2022-08-08 17:09:00.528 IST [1007111] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 17:09:00.528 IST [1007111] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 17:09:00.532 IST [1007111] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 17:09:00.546 IST [1007112] LOG:  database system was shut down at 2022-08-08 17:05:15 IST
+2022-08-08 17:09:00.549 IST [1007111] LOG:  database system is ready to accept connections
+2022-08-08 17:09:00.554 IST [1007119] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 17:09:00.556 IST [1007119] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 17:09:00.556 IST [1007119] LOG:  config_log worker: no configuration changes detected
+2022-08-08 17:09:00.636 IST [1007111] LOG:  background worker "bw_sm " (PID 1007120) was terminated by signal 11: Segmentation fault
+2022-08-08 17:09:00.636 IST [1007111] DETAIL:  Failed process was running: checking extension available
+2022-08-08 17:09:00.636 IST [1007111] LOG:  terminating any other active server processes
+2022-08-08 17:09:00.636 IST [1007116] WARNING:  terminating connection because of crash of another server process
+2022-08-08 17:09:00.636 IST [1007116] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2022-08-08 17:09:00.636 IST [1007116] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2022-08-08 17:09:00.636 IST [1007111] LOG:  archiver process (PID 1007117) exited with exit code 1
+2022-08-08 17:09:00.637 IST [1007111] LOG:  all server processes terminated; reinitializing
+2022-08-08 17:09:00.643 IST [1007131] LOG:  database system was interrupted; last known up at 2022-08-08 17:09:00 IST
+2022-08-08 17:09:00.679 IST [1007131] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-08-08 17:09:00.681 IST [1007131] LOG:  invalid record length at 0/2D000098: wanted 24, got 0
+2022-08-08 17:09:00.681 IST [1007131] LOG:  redo is not required
+2022-08-08 17:09:00.698 IST [1007111] LOG:  database system is ready to accept connections
+2022-08-08 17:09:00.703 IST [1007137] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 17:09:00.706 IST [1007137] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 17:09:00.706 IST [1007137] LOG:  config_log worker: no configuration changes detected
+2022-08-08 17:09:08.618 IST [1007157] ERROR:  extension "bwstudentsmarkstoppers" does not exist
+2022-08-08 17:09:08.618 IST [1007157] STATEMENT:  drop extension bwstudentsmarkstoppers ;
+2022-08-08 17:09:47.901 IST [1007157] ERROR:  relation "pg_extensions" does not exist at character 22
+2022-08-08 17:09:47.901 IST [1007157] STATEMENT:  select count(*) from pg_extensions where extname='bwstudentsmarkstoppers';
+2022-08-08 17:12:02.401 IST [1007111] LOG:  received fast shutdown request
+2022-08-08 17:12:02.403 IST [1007111] LOG:  aborting any active transactions
+2022-08-08 17:12:02.404 IST [1007157] FATAL:  terminating connection due to administrator command
+2022-08-08 17:12:02.404 IST [1007111] LOG:  background worker "logical replication launcher" (PID 1007138) exited with exit code 1
+2022-08-08 17:12:02.405 IST [1007132] LOG:  shutting down
+2022-08-08 17:12:02.450 IST [1007111] LOG:  database system is shut down
+2022-08-08 17:12:11.698 IST [1007371] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 17:12:11.698 IST [1007371] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 17:12:11.702 IST [1007371] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 17:12:11.722 IST [1007372] LOG:  database system was shut down at 2022-08-08 17:12:02 IST
+2022-08-08 17:12:11.725 IST [1007371] LOG:  database system is ready to accept connections
+2022-08-08 17:12:11.731 IST [1007380] LOG:  1719733216
+2022-08-08 17:12:11.731 IST [1007380] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:12:11.731 IST [1007380] ERROR:  relation "students" does not exist at character 13
+2022-08-08 17:12:11.731 IST [1007380] QUERY:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 17:12:11.731 IST [1007380] STATEMENT:  INSERT INTO students VALUES (1,'name1','address1',TO_DATE('20010101','YYYYMMDD') + (random() * (interval '365 days')),cast(floor(random()*(9999999999-6000000000+1)+6000000000)as varchar))
+2022-08-08 17:12:11.731 IST [1007371] LOG:  background worker "bw_sm " (PID 1007380) exited with exit code 1
+2022-08-08 17:12:11.732 IST [1007379] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 17:12:11.734 IST [1007379] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 17:12:11.734 IST [1007379] LOG:  config_log worker: no configuration changes detected
+2022-08-08 17:12:23.945 IST [1007399] ERROR:  extension "bwstudentsmarkstoppers" does not exist
+2022-08-08 17:12:23.945 IST [1007399] STATEMENT:  drop extension bwstudentsmarkstoppers ;
+2022-08-08 17:14:21.163 IST [1007371] LOG:  received fast shutdown request
+2022-08-08 17:14:21.166 IST [1007371] LOG:  aborting any active transactions
+2022-08-08 17:14:21.166 IST [1007399] FATAL:  terminating connection due to administrator command
+2022-08-08 17:14:21.167 IST [1007371] LOG:  background worker "logical replication launcher" (PID 1007381) exited with exit code 1
+2022-08-08 17:14:21.168 IST [1007373] LOG:  shutting down
+2022-08-08 17:14:21.216 IST [1007371] LOG:  database system is shut down
+2022-08-08 17:15:20.102 IST [1007680] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-08-08 17:15:20.102 IST [1007680] LOG:  listening on IPv6 address "::", port 5432
+2022-08-08 17:15:20.106 IST [1007680] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-08-08 17:15:20.120 IST [1007681] LOG:  database system was shut down at 2022-08-08 17:14:21 IST
+2022-08-08 17:15:20.123 IST [1007680] LOG:  database system is ready to accept connections
+2022-08-08 17:15:20.127 IST [1007689] LOG:  ret = 0
+2022-08-08 17:15:20.127 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:15:20.128 IST [1007688] LOG:  config_log worker: initialized, database objects validated
+2022-08-08 17:15:20.131 IST [1007688] LOG:  config_log worker: pg_settings_logger() executed
+2022-08-08 17:15:20.131 IST [1007688] LOG:  config_log worker: no configuration changes detected
+2022-08-08 17:15:25.127 IST [1007689] LOG:  ret = 0
+2022-08-08 17:15:25.127 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:15:30.128 IST [1007689] LOG:  ret = 0
+2022-08-08 17:15:30.128 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:15:35.129 IST [1007689] LOG:  ret = 0
+2022-08-08 17:15:35.129 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:15:40.129 IST [1007689] LOG:  ret = 0
+2022-08-08 17:15:40.129 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:15:45.130 IST [1007689] LOG:  ret = 0
+2022-08-08 17:15:45.130 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:15:50.130 IST [1007689] LOG:  ret = 0
+2022-08-08 17:15:50.130 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:15:55.131 IST [1007689] LOG:  ret = 0
+2022-08-08 17:15:55.131 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:16:00.131 IST [1007689] LOG:  ret = 0
+2022-08-08 17:16:00.131 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:16:05.132 IST [1007689] LOG:  ret = 0
+2022-08-08 17:16:05.132 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:16:07.810 IST [1007680] LOG:  received fast shutdown request
+2022-08-08 17:16:07.813 IST [1007680] LOG:  aborting any active transactions
+2022-08-08 17:16:07.813 IST [1007689] LOG:  ret = 0
+2022-08-08 17:16:07.813 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:16:07.814 IST [1007680] LOG:  background worker "logical replication launcher" (PID 1007690) exited with exit code 1
+2022-08-08 17:16:12.877 IST [1007689] LOG:  ret = 0
+2022-08-08 17:16:12.877 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:16:17.877 IST [1007689] LOG:  ret = 0
+2022-08-08 17:16:17.877 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:16:22.878 IST [1007689] LOG:  ret = 0
+2022-08-08 17:16:22.878 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:16:27.878 IST [1007689] LOG:  ret = 0
+2022-08-08 17:16:27.878 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:16:32.879 IST [1007689] LOG:  ret = 0
+2022-08-08 17:16:32.879 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:16:37.879 IST [1007689] LOG:  ret = 0
+2022-08-08 17:16:37.879 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:16:42.880 IST [1007689] LOG:  ret = 0
+2022-08-08 17:16:42.880 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:16:47.880 IST [1007689] LOG:  ret = 0
+2022-08-08 17:16:47.880 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:16:52.881 IST [1007689] LOG:  ret = 0
+2022-08-08 17:16:52.881 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:16:57.881 IST [1007689] LOG:  ret = 0
+2022-08-08 17:16:57.881 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:17:02.882 IST [1007689] LOG:  ret = 0
+2022-08-08 17:17:02.882 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:17:07.883 IST [1007689] LOG:  ret = 0
+2022-08-08 17:17:07.883 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:17:12.883 IST [1007689] LOG:  ret = 0
+2022-08-08 17:17:12.883 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:17:14.359 IST [1007689] LOG:  ret = 0
+2022-08-08 17:17:14.359 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:17:15.597 IST [1007689] LOG:  ret = 0
+2022-08-08 17:17:15.597 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:17:20.597 IST [1007689] LOG:  ret = 0
+2022-08-08 17:17:20.597 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:17:25.598 IST [1007689] LOG:  ret = 0
+2022-08-08 17:17:25.598 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:17:30.598 IST [1007689] LOG:  ret = 0
+2022-08-08 17:17:30.598 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:17:35.599 IST [1007689] LOG:  ret = 0
+2022-08-08 17:17:35.599 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:17:40.600 IST [1007689] LOG:  ret = 0
+2022-08-08 17:17:40.600 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:17:45.600 IST [1007689] LOG:  ret = 0
+2022-08-08 17:17:45.600 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:17:50.601 IST [1007689] LOG:  ret = 0
+2022-08-08 17:17:50.601 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:17:55.601 IST [1007689] LOG:  ret = 0
+2022-08-08 17:17:55.601 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:18:00.602 IST [1007689] LOG:  ret = 0
+2022-08-08 17:18:00.602 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:18:05.603 IST [1007689] LOG:  ret = 0
+2022-08-08 17:18:05.603 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:18:10.603 IST [1007689] LOG:  ret = 0
+2022-08-08 17:18:10.603 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:18:15.604 IST [1007689] LOG:  ret = 0
+2022-08-08 17:18:15.604 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:18:20.604 IST [1007689] LOG:  ret = 0
+2022-08-08 17:18:20.604 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:18:25.605 IST [1007689] LOG:  ret = 0
+2022-08-08 17:18:25.605 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:18:30.606 IST [1007689] LOG:  ret = 0
+2022-08-08 17:18:30.606 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:18:35.606 IST [1007689] LOG:  ret = 0
+2022-08-08 17:18:35.606 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:18:40.607 IST [1007689] LOG:  ret = 0
+2022-08-08 17:18:40.607 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:18:45.608 IST [1007689] LOG:  ret = 0
+2022-08-08 17:18:45.608 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:18:50.608 IST [1007689] LOG:  ret = 0
+2022-08-08 17:18:50.608 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:18:55.608 IST [1007689] LOG:  ret = 0
+2022-08-08 17:18:55.608 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:19:00.609 IST [1007689] LOG:  ret = 0
+2022-08-08 17:19:00.609 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:19:05.610 IST [1007689] LOG:  ret = 0
+2022-08-08 17:19:05.610 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:19:10.610 IST [1007689] LOG:  ret = 0
+2022-08-08 17:19:10.610 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:19:15.611 IST [1007689] LOG:  ret = 0
+2022-08-08 17:19:15.611 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:19:20.632 IST [1007689] LOG:  ret = 0
+2022-08-08 17:19:20.632 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:19:25.633 IST [1007689] LOG:  ret = 0
+2022-08-08 17:19:25.633 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:19:30.634 IST [1007689] LOG:  ret = 0
+2022-08-08 17:19:30.634 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:19:35.634 IST [1007689] LOG:  ret = 0
+2022-08-08 17:19:35.634 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:19:40.635 IST [1007689] LOG:  ret = 0
+2022-08-08 17:19:40.635 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:19:45.635 IST [1007689] LOG:  ret = 0
+2022-08-08 17:19:45.635 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:19:50.636 IST [1007689] LOG:  ret = 0
+2022-08-08 17:19:50.636 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:19:55.637 IST [1007689] LOG:  ret = 0
+2022-08-08 17:19:55.637 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:20:00.637 IST [1007689] LOG:  ret = 0
+2022-08-08 17:20:00.637 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:20:05.638 IST [1007689] LOG:  ret = 0
+2022-08-08 17:20:05.638 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:20:10.639 IST [1007689] LOG:  ret = 0
+2022-08-08 17:20:10.639 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:20:15.639 IST [1007689] LOG:  ret = 0
+2022-08-08 17:20:15.639 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:20:20.639 IST [1007689] LOG:  ret = 0
+2022-08-08 17:20:20.639 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:20:25.640 IST [1007689] LOG:  ret = 0
+2022-08-08 17:20:25.640 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:20:30.640 IST [1007689] LOG:  ret = 0
+2022-08-08 17:20:30.640 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:20:35.641 IST [1007689] LOG:  ret = 0
+2022-08-08 17:20:35.641 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:20:40.641 IST [1007689] LOG:  ret = 0
+2022-08-08 17:20:40.641 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:20:45.642 IST [1007689] LOG:  ret = 0
+2022-08-08 17:20:45.642 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';
+2022-08-08 17:20:50.643 IST [1007689] LOG:  ret = 0
+2022-08-08 17:20:50.643 IST [1007689] STATEMENT:  select count(*) from pg_extension where extname='bwstudentsmarkstoppers';

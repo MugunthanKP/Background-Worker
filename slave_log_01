@@ -1,0 +1,126 @@
+2022-08-08 13:50:33.106 IST [669828] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2022-08-08 13:50:33.106 IST [669828] LOG:  listening on IPv6 address "::", port 5433
+2022-08-08 13:50:33.110 IST [669828] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2022-08-08 13:50:33.123 IST [669829] LOG:  database system was shut down in recovery at 2022-08-08 13:11:43 IST
+2022-08-08 13:50:33.124 IST [669829] LOG:  entering standby mode
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 13:50:33.129 IST [669829] LOG:  redo starts at 0/50000D0
+2022-08-08 13:50:33.129 IST [669829] LOG:  consistent recovery state reached at 0/50001B0
+2022-08-08 13:50:33.129 IST [669829] LOG:  invalid record length at 0/50001B0: wanted 24, got 0
+2022-08-08 13:50:33.129 IST [669828] LOG:  database system is ready to accept read only connections
+2022-08-08 13:50:33.137 IST [669835] LOG:  started streaming WAL from primary at 0/5000000 on timeline 1
+2022-08-08 13:55:11.066 IST [669835] FATAL:  terminating walreceiver due to timeout
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 13:55:11.070 IST [669829] LOG:  invalid record length at 0/60000D0: wanted 24, got 0
+2022-08-08 13:55:11.077 IST [673256] LOG:  started streaming WAL from primary at 0/6000000 on timeline 1
+2022-08-08 13:58:25.006 IST [673256] FATAL:  terminating walreceiver due to timeout
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 13:58:25.009 IST [669829] LOG:  invalid record length at 0/60001B0: wanted 24, got 0
+2022-08-08 13:58:25.016 IST [674198] LOG:  started streaming WAL from primary at 0/6000000 on timeline 1
+2022-08-08 14:01:39.058 IST [674198] FATAL:  terminating walreceiver due to timeout
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 14:01:39.069 IST [677013] LOG:  started streaming WAL from primary at 0/6000000 on timeline 1
+2022-08-08 14:04:53.063 IST [677013] FATAL:  terminating walreceiver due to timeout
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 14:04:53.073 IST [677512] LOG:  started streaming WAL from primary at 0/6000000 on timeline 1
+2022-08-08 14:04:08.421 IST [669828] LOG:  received fast shutdown request
+2022-08-08 14:04:08.424 IST [669828] LOG:  aborting any active transactions
+2022-08-08 14:04:08.424 IST [677512] FATAL:  terminating walreceiver process due to administrator command
+2022-08-08 14:04:08.425 IST [669832] LOG:  shutting down
+2022-08-08 14:04:08.434 IST [669828] LOG:  database system is shut down
+2022-08-08 14:42:52.834 IST [683551] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2022-08-08 14:42:52.834 IST [683551] LOG:  listening on IPv6 address "::", port 5433
+2022-08-08 14:42:52.838 IST [683551] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2022-08-08 14:42:52.855 IST [683552] LOG:  database system was shut down in recovery at 2022-08-08 14:04:08 IST
+2022-08-08 14:42:52.855 IST [683552] LOG:  entering standby mode
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 14:42:52.860 IST [683552] LOG:  redo starts at 0/60000D0
+2022-08-08 14:42:52.860 IST [683552] LOG:  consistent recovery state reached at 0/6016DE8
+2022-08-08 14:42:52.860 IST [683552] LOG:  invalid record length at 0/6016DE8: wanted 24, got 0
+2022-08-08 14:42:52.860 IST [683551] LOG:  database system is ready to accept read only connections
+2022-08-08 14:42:52.864 IST [683558] LOG:  started streaming WAL from primary at 0/6000000 on timeline 1
+2022-08-08 14:46:42.008 IST [683558] FATAL:  terminating walreceiver due to timeout
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 14:46:42.011 IST [683552] LOG:  invalid record length at 0/7001D90: wanted 24, got 0
+2022-08-08 14:46:42.016 IST [683699] LOG:  started streaming WAL from primary at 0/7000000 on timeline 1
+2022-08-08 14:46:50.773 IST [683551] LOG:  received fast shutdown request
+2022-08-08 14:46:50.775 IST [683551] LOG:  aborting any active transactions
+2022-08-08 14:46:50.775 IST [683699] FATAL:  terminating walreceiver process due to administrator command
+2022-08-08 14:46:50.777 IST [683555] LOG:  shutting down
+2022-08-08 14:46:50.831 IST [683551] LOG:  database system is shut down
+2022-08-08 14:47:16.404 IST [684183] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2022-08-08 14:47:16.404 IST [684183] LOG:  listening on IPv6 address "::", port 5433
+2022-08-08 14:47:16.408 IST [684183] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2022-08-08 14:47:16.428 IST [684184] LOG:  database system was shut down in recovery at 2022-08-08 14:46:50 IST
+2022-08-08 14:47:16.428 IST [684184] LOG:  entering standby mode
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 14:47:16.433 IST [684184] LOG:  redo starts at 0/7000098
+2022-08-08 14:47:16.433 IST [684184] LOG:  consistent recovery state reached at 0/7001D90
+2022-08-08 14:47:16.433 IST [684184] LOG:  invalid record length at 0/7001D90: wanted 24, got 0
+2022-08-08 14:47:16.433 IST [684183] LOG:  database system is ready to accept read only connections
+2022-08-08 14:47:16.442 IST [684190] LOG:  started streaming WAL from primary at 0/7000000 on timeline 1
+2022-08-08 14:49:56.068 IST [684190] FATAL:  terminating walreceiver due to timeout
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 14:49:56.072 IST [684184] LOG:  invalid record length at 0/80000D0: wanted 24, got 0
+2022-08-08 14:49:56.079 IST [684280] LOG:  started streaming WAL from primary at 0/8000000 on timeline 1
+2022-08-08 14:47:44.675 IST [684183] LOG:  received fast shutdown request
+2022-08-08 14:47:44.677 IST [684183] LOG:  aborting any active transactions
+2022-08-08 14:47:44.677 IST [684280] FATAL:  terminating walreceiver process due to administrator command
+2022-08-08 14:47:44.678 IST [684187] LOG:  shutting down
+2022-08-08 14:47:44.693 IST [684183] LOG:  database system is shut down
+2022-08-08 14:49:55.659 IST [684620] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2022-08-08 14:49:55.659 IST [684620] LOG:  listening on IPv6 address "::", port 5433
+2022-08-08 14:49:55.662 IST [684620] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2022-08-08 14:49:55.680 IST [684621] LOG:  database system was shut down in recovery at 2022-08-08 14:47:44 IST
+2022-08-08 14:49:55.680 IST [684621] LOG:  entering standby mode
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 14:49:55.684 IST [684621] LOG:  consistent recovery state reached at 0/8000098
+2022-08-08 14:49:55.684 IST [684621] LOG:  redo starts at 0/8000098
+2022-08-08 14:49:55.684 IST [684621] LOG:  invalid record length at 0/80000D0: wanted 24, got 0
+2022-08-08 14:49:55.685 IST [684620] LOG:  database system is ready to accept read only connections
+2022-08-08 14:49:55.692 IST [684627] LOG:  started streaming WAL from primary at 0/8000000 on timeline 1
+2022-08-08 14:53:10.064 IST [684627] FATAL:  terminating walreceiver due to timeout
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 14:53:10.068 IST [684621] LOG:  invalid record length at 0/90000D0: wanted 24, got 0
+2022-08-08 14:53:10.075 IST [684830] LOG:  started streaming WAL from primary at 0/9000000 on timeline 1
+2022-08-08 14:53:47.672 IST [684620] LOG:  received fast shutdown request
+2022-08-08 14:53:47.675 IST [684620] LOG:  aborting any active transactions
+2022-08-08 14:53:47.675 IST [684830] FATAL:  terminating walreceiver process due to administrator command
+2022-08-08 14:53:47.676 IST [684624] LOG:  shutting down
+2022-08-08 14:53:47.690 IST [684620] LOG:  database system is shut down
+2022-08-08 14:54:08.603 IST [685212] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2022-08-08 14:54:08.603 IST [685212] LOG:  listening on IPv6 address "::", port 5433
+2022-08-08 14:54:08.608 IST [685212] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2022-08-08 14:54:08.622 IST [685213] LOG:  database system was shut down in recovery at 2022-08-08 14:53:47 IST
+2022-08-08 14:54:08.623 IST [685213] LOG:  entering standby mode
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 14:54:08.628 IST [685213] LOG:  consistent recovery state reached at 0/9000098
+2022-08-08 14:54:08.628 IST [685213] LOG:  redo starts at 0/9000098
+2022-08-08 14:54:08.628 IST [685213] LOG:  invalid record length at 0/90000D0: wanted 24, got 0
+2022-08-08 14:54:08.628 IST [685212] LOG:  database system is ready to accept read only connections
+2022-08-08 14:54:08.638 IST [685219] LOG:  started streaming WAL from primary at 0/9000000 on timeline 1
+2022-08-08 14:56:24.066 IST [685219] FATAL:  terminating walreceiver due to timeout
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 14:56:24.069 IST [685213] LOG:  invalid record length at 0/A000098: wanted 24, got 0
+2022-08-08 14:56:24.076 IST [685262] LOG:  started streaming WAL from primary at 0/A000000 on timeline 1
+2022-08-08 14:56:30.820 IST [685212] LOG:  received fast shutdown request
+2022-08-08 14:56:30.822 IST [685212] LOG:  aborting any active transactions
+2022-08-08 14:56:30.823 IST [685262] FATAL:  terminating walreceiver process due to administrator command
+2022-08-08 14:56:30.824 IST [685216] LOG:  shutting down
+2022-08-08 14:56:30.888 IST [685212] LOG:  database system is shut down
+2022-08-08 14:56:42.564 IST [685665] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2022-08-08 14:56:42.564 IST [685665] LOG:  listening on IPv6 address "::", port 5433
+2022-08-08 14:56:42.569 IST [685665] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2022-08-08 14:56:42.587 IST [685666] LOG:  database system was shut down in recovery at 2022-08-08 14:56:30 IST
+2022-08-08 14:56:42.588 IST [685666] LOG:  entering standby mode
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 14:56:42.591 IST [685666] LOG:  redo starts at 0/A000098
+2022-08-08 14:56:42.593 IST [685666] LOG:  consistent recovery state reached at 0/A0259D0
+2022-08-08 14:56:42.593 IST [685666] LOG:  invalid record length at 0/A0259D0: wanted 24, got 0
+2022-08-08 14:56:42.593 IST [685665] LOG:  database system is ready to accept read only connections
+2022-08-08 14:56:42.601 IST [685672] LOG:  started streaming WAL from primary at 0/A000000 on timeline 1
+2022-08-08 14:57:01.678 IST [685665] LOG:  received fast shutdown request
+2022-08-08 14:57:01.681 IST [685665] LOG:  aborting any active transactions
+2022-08-08 14:57:01.681 IST [685672] FATAL:  terminating walreceiver process due to administrator command
+2022-08-08 14:57:01.682 IST [685669] LOG:  shutting down
+2022-08-08 14:57:01.736 IST [685665] LOG:  database system is shut down

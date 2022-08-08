@@ -1,0 +1,182 @@
+2022-08-08 18:43:53.480 IST [16044] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2022-08-08 18:43:53.480 IST [16044] LOG:  listening on IPv6 address "::", port 5433
+2022-08-08 18:43:53.485 IST [16044] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2022-08-08 18:43:53.501 IST [16045] LOG:  database system was shut down in recovery at 2022-08-08 14:57:01 IST
+2022-08-08 18:43:53.501 IST [16045] LOG:  entering standby mode
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:43:53.507 IST [16045] LOG:  redo starts at 0/B000098
+2022-08-08 18:43:53.509 IST [16045] LOG:  consistent recovery state reached at 0/B021EE0
+2022-08-08 18:43:53.509 IST [16045] LOG:  invalid record length at 0/B021EE0: wanted 24, got 0
+2022-08-08 18:43:53.509 IST [16044] LOG:  database system is ready to accept read only connections
+2022-08-08 18:43:53.516 IST [16051] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:43:53.524 IST [16057] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:43:58.531 IST [16081] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:44:03.535 IST [16085] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:44:08.536 IST [16092] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:44:13.542 IST [16098] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:44:18.547 IST [16122] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:44:23.553 IST [16126] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:44:28.557 IST [16131] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:44:33.562 IST [16135] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:44:38.565 IST [16142] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:44:43.571 IST [16146] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:44:48.576 IST [16152] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:44:53.582 IST [16157] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:44:58.584 IST [16180] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:45:03.591 IST [16189] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:45:08.597 IST [16193] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:45:13.599 IST [16197] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:45:18.605 IST [16202] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:45:23.608 IST [16207] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:45:28.614 IST [16211] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:45:33.623 IST [16235] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:45:38.627 IST [16244] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:45:43.632 IST [16248] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:45:48.637 IST [16271] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:45:53.642 IST [16276] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:45:58.647 IST [16299] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:46:03.651 IST [16303] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:46:08.656 IST [16307] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:46:13.661 IST [16311] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:46:18.658 IST [16317] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:46:23.670 IST [16321] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+2022-08-08 18:46:27.887 IST [16044] LOG:  received fast shutdown request
+2022-08-08 18:46:27.890 IST [16044] LOG:  aborting any active transactions
+2022-08-08 18:46:27.890 IST [16095] FATAL:  terminating connection due to administrator command
+2022-08-08 18:46:27.891 IST [16048] LOG:  shutting down
+2022-08-08 18:46:27.899 IST [16044] LOG:  database system is shut down
+2022-08-08 18:48:36.756 IST [16521] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2022-08-08 18:48:36.756 IST [16521] LOG:  listening on IPv6 address "::", port 5433
+2022-08-08 18:48:36.760 IST [16521] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2022-08-08 18:48:36.769 IST [16522] LOG:  database system was shut down in recovery at 2022-08-08 18:46:27 IST
+2022-08-08 18:48:36.769 IST [16522] LOG:  entering standby mode
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:48:36.772 IST [16522] LOG:  redo starts at 0/B000098
+2022-08-08 18:48:36.773 IST [16522] LOG:  consistent recovery state reached at 0/B021EE0
+2022-08-08 18:48:36.773 IST [16522] LOG:  invalid record length at 0/B021EE0: wanted 24, got 0
+2022-08-08 18:48:36.773 IST [16521] LOG:  database system is ready to accept read only connections
+2022-08-08 18:48:36.776 IST [16528] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:48:36.779 IST [16532] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:48:41.792 IST [16576] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:48:46.798 IST [16586] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:48:51.803 IST [16590] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:48:56.807 IST [16599] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:49:01.813 IST [16623] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:49:06.818 IST [16645] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:49:11.824 IST [16649] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:49:16.830 IST [16653] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:49:21.834 IST [16658] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:49:26.840 IST [16662] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:49:31.842 IST [16666] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:49:36.847 IST [16688] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:49:41.852 IST [16693] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:49:46.857 IST [16697] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:49:51.858 IST [16701] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:49:56.864 IST [16705] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:50:01.867 IST [16712] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:50:06.871 IST [16722] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:50:11.877 IST [16728] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:50:16.878 IST [16734] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:50:21.883 IST [16739] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:50:26.902 IST [16770] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:50:31.908 IST [16788] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:50:36.910 IST [16822] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:50:41.916 IST [16839] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:50:46.922 IST [16860] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:50:51.920 IST [16878] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:50:56.927 IST [16983] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:51:01.937 IST [17010] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:51:06.936 IST [17692] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:51:11.946 IST [18152] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:51:16.944 IST [18157] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:51:21.956 IST [18317] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:51:26.957 IST [18338] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:51:31.962 IST [18355] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:51:36.966 IST [18377] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:51:41.971 IST [18400] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:51:46.973 IST [18417] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:51:51.978 IST [18421] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:51:56.984 IST [18425] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:52:01.985 IST [18430] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:52:06.987 IST [18438] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+cp: target 'pg_wal/RECOVERYXLOG' is not a directory
+2022-08-08 18:52:11.996 IST [18443] FATAL:  could not connect to the primary server: fe_sendauth: no password supplied
+2022-08-08 18:52:14.010 IST [16521] LOG:  received fast shutdown request
+2022-08-08 18:52:14.012 IST [16521] LOG:  aborting any active transactions
+2022-08-08 18:52:14.012 IST [16625] FATAL:  terminating connection due to administrator command
+2022-08-08 18:52:14.014 IST [16525] LOG:  shutting down
+2022-08-08 18:52:14.024 IST [16521] LOG:  database system is shut down

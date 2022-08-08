@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/include"
+                "/usr/include",
+                "/home/local/ZOHOCORP/muguntha-pt5620/Desktop/postgresql-11.4/src/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

@@ -1,0 +1,4 @@
+# bwStudentMarksToppers extension
+comment = 'Background Worker For StudentMarksToppers'
+default_version = '0.0.1'
+relocatable = true
