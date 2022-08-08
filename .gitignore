@@ -9,5 +9,15 @@ postgresql-11.4
 base36extension
 custombgw
 get-pip.py
+sampleExtensions
+createNewPostgres.sh
+master_log
+master_log_01
+master_log_02
+slave_log
+slave_log_01
+slave_log_02
+pythoncodes
+bgforstudentandmarks
 samplequeryextension
 .vscode
